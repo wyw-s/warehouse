@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    ul {
+      list-style: none;
+    }
+    
+    .box {
+      width: 730px;
+      height: 454px;
+      padding: 8px;
+      border: 1px solid green;
+      margin: 100px auto;
+    }
+    
+    .inner {
+      position: relative;
+      overflow: hidden;
+      height: 454px;
+    }
+    
+    #imglist {
+      width: 700%;
+      position: absolute;
+      left: 0;
+      transition: left 300ms linear;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    .list {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      margin-left: -85px;
+    }
+    
+    .list i {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #fff;
+      color: #333;
+      float: left;
+      font-style: normal;
+      line-height: 20px;
+      font-size: 14px;
+      text-align: center;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    
+    .list i:last-child {
+      margin-right: 0;
+    }
+    
+    .list i.current {
+      background-color: skyblue;
+      color: #fff;
+    }
+    
+    .arrow {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      margin-top: -30px;
+    }
+    
+    .arrow-left,
+    .arrow-right {
+      width: 30px;
+      height: 60px;
+      position: absolute;
+      font: 20px/60px "consolas";
+      color: #fff;
+      background-color: rgba(0, 0, 0, .3);
+      text-align: center;
+      cursor: pointer;
+    }
+    
+    .arrow-right {
+      right: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box" id="box">
+    <div class="inner" id="inner">
+      <ul id="imglist">
+        <li>
+          <a href="#"><img src="images/1.jpg" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/2.jpg" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/3.jpg" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/4.jpg" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/5.jpg" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/6.jpg" alt=""></a>
+        </li>
+      </ul>
+      <div class="list">
+        <i class="current">1</i>
+        <i>2</i>
+        <i>3</i>
+        <i>4</i>
+        <i>5</i>
+        <i>6</i>
+      </div>
+      <div class="arrow">
+        <span class="arrow-left">&lt;</span>
+        <span class="arrow-right">&gt;</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script>
+  window.onload = function() {
+    // 1 实现序号轮播
+    // 1.1 获取元素 (小圆点，ul)
+    var circles = document.querySelectorAll('.list>i');
+    // console.log(circles);
+    var ul = document.getElementById('imglist');
+    // 定义一个变量，保存图片的宽度 // li和图片的宽度是一样的
+    var imgWidth = ul.children[0].offsetWidth;
+
+
+
+    // 1.2 给序号注册鼠标移入事件
+    for (var i = 0; i < circles.length; i++) {
+      // const element = array[index];
+      circles[i].index = i;
+      circles[i].onmouseover = function() {
+        // 计算
+        var target = imgWidth * this.index * -1;
+        // 移动
+        ul.style.left = target + 'px';
+
+        // 样式设置
+        circles.forEach(function(c) {
+          c.classList.remove('current');
+        });
+        this.classList.add('current');
+
+        // 联动
+        // 要把序号切换的值，影响到全局的变量形成统一；
+        currentIndex = this.index;
+
+      }
+
+    }
+
+
+    // ----------------------------------------------------左右
+
+    // 使用一个变量表示当前是第几张图片
+    var currentIndex = 0;
+
+    // 实现左右按钮轮播
+
+    var rightBtn = document.querySelector('.arrow-right');
+    //注册点击事件
+    // 下标为0；当前显示第1张
+    // 下标为1；当前显示第2张
+    // 下标为5，当前显示第6张
+    // 下标为6，当前显示第1张，回到下标为0;
+    rightBtn.onclick = right;
+
+    function right() {
+      currentIndex++;
+
+      // 下标为6时，也就是数组的长度时，当前显示应该为第1张，回到下标为0;
+      if (currentIndex == ul.children.length) {
+        currentIndex = 0;
+      }
+
+      // 算出ul的位置
+      var target = currentIndex * imgWidth * -1;
+      // 设置ul的位置
+      ul.style.left = target + 'px';
+
+
+      // 联动序号
+      // 归根到底，左右控制的就是index，序号也是控制的index。
+      // 左右切换时：把序号的样式联动起来；
+
+      // 样式联动：排他思想
+      circles.forEach(function(c) {
+        c.classList.remove('current');
+      });
+      circles[currentIndex].classList.add('current');
+
+    }
+
+    // 左侧点击；
+    var leftBtn = document.querySelector('.arrow-left');
+    // 下标为5，当前显示第6张
+    // 下标为1；当前显示第2张
+    // 下标为0；当前显示第1张
+    // 下标为-1；当前显示应该为第6张，下标回归为 最后的下标= 数组长度-1；
+    leftBtn.onclick = function() {
+      // 正常递减
+      currentIndex--;
+
+      // 当下标为-1；当前显示应该为第6张，下标回归为 最后的下标= 数组长度-1；
+      if (currentIndex == -1) {
+        currentIndex = ul.children.length - 1;
+      }
+
+      // 算出ul的位置
+      var target = currentIndex * imgWidth * -1;
+      // 设置ul的位置
+      ul.style.left = target + 'px';
+
+
+
+      // 联动序号
+      // 归根到底，左右控制的就是index，序号也是控制的index。
+      // 左右切换时：把序号的样式联动起来；
+
+      // 样式联动：排他思想
+      circles.forEach(function(c) {
+        c.classList.remove('current');
+      });
+      circles[currentIndex].classList.add('current');
+    }
+
+
+    // -------------------------------------------------------自动
+    // 1.把向右的功能封装为函数；
+    var timer = setInterval(function() {
+      // right();
+      rightBtn.onclick();
+    }, 1500);
+
+
+    // 鼠标控制
+    var box = document.querySelector("#box");
+    // 移入清除定时器
+    box.onmouseover = function() {
+      clearInterval(timer);
+    };
+
+    // 移出开始定时器
+    box.onmouseout = function() {
+      timer = setInterval(function() {
+        // right();
+        rightBtn.onclick();
+      }, 2000);
+    };
+
+  }
+</script>
+
+</html>

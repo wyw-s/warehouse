@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            border: 1px solid #c0c0c0;
+            width: 500px;
+            margin: 100px auto;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #09c;
+            font: bold 16px "微软雅黑";
+            color: #fff;
+            height: 24px;
+        }
+        
+        td {
+            border: 1px solid #d0d0d0;
+            color: #404060;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>
+                <input type="checkbox" name="" id="checkAll" />全选/全不选
+            </th>
+            <th>菜名</th>
+            <th>商家</th>
+            <th>价格</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="check" class="ck" />
+            </td>
+            <td>红烧肉</td>
+            <td>隆江猪脚饭</td>
+            <td>￥200</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="check" class="ck" />
+            </td>
+            <td>香酥排骨</td>
+            <td>隆江猪脚饭</td>
+            <td>￥998</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="check" class="ck" />
+            </td>
+            <td>北京烤鸭</td>
+            <td>隆江猪脚饭</td>
+            <td>￥88</td>
+        </tr>
+    </table>
+
+</body>
+<script>
+    //  需求：点击按钮全选与全不选============================；
+    // 通过id选择器获取元素对象；
+    var checkAll = document.getElementById('checkAll');
+    // 通过类选择器获取所有相同类名的元素对象；
+    var ck = document.getElementsByClassName('ck');
+    // 为按钮注册事件并添加事件处理函数；
+    checkAll.onclick = function() {
+        // for循环遍历,让ck获得与checkAll相同的状态；
+        for (var i = 0; i < ck.length; i++) {
+            ck[i].checked = this.checked;
+        }
+    }
+
+
+    //需求：当下面的子选项有一个不是选中状态，那么全选按钮不选中=======；
+    // 为每个子选项注册点击事件并添加事件处理函数；
+    for (var j = 0; j < ck.length; j++) {
+        /* var key = true; 不能放在点击事件的外面，
+            因为，当点击第三个按钮时，由于前面按钮的判断此时的key已经是false了；
+            所以if的第一个判断永远也不会执行； */
+        // 若有一个不是处于选中状态则全选按钮不生效；
+        ck[j].onclick = function() {
+            // 定义变量假设子选项全部处于选中状态；
+            var key = true;
+            //循环判断每个按钮的状态是否选中；
+            for (var k = 0; k < ck.length; k++) {
+                if (ck[k].checked != true) {
+                    key = false;
+                    // 有一个不成立则循环结束；总的选中状态为false；
+                    break;
+                }
+                // 判断不能全部写在循环里面，因为是全部判断完成，再控制总的选中状态；
+                // 不是用每次的判断来控制总的选中状态；
+                //  else if (key) {
+                //     checkAll.checked = true;
+                // } else {
+                //     checkAll.checked = false;
+                // }
+            }
+            // 上面的判断不成立是执行；
+            if (key) {
+                checkAll.checked = true;
+            } else {
+                checkAll.checked = false;
+            }
+        }
+    }
+</script>
+
+</html>

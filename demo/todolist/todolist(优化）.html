@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>WYW</title>
+    <link href="./index.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section>
+            <label for="title">ToDoList</label>
+            <input id="title" name="title" placeholder="添加ToDo" required="required" type="text" />
+        </section>
+    </header>
+    <section>
+        <h2>
+            正在进行
+            <span id="todocount"></span>
+        </h2>
+        <ol class="demo-box" id="todolist">
+        </ol>
+        <h2>
+            已经完成
+            <span id="donecount"></span>
+        </h2>
+        <ul id="donelist">
+        </ul>
+    </section>
+    <script src="jQuery.min.js"></script>
+    <script>
+        //入口函数；
+        $(function() {
+
+
+            //本地储存的函数封装；
+            function local() {
+                var str = localStorage.getItem('list');
+                //判断有则转为对象，无则为空；
+                if (str != null) {
+                    return JSON.parse(str);
+                } else {
+                    return [];
+                }
+            };
+
+            //把新数据从新保存到本地；
+            function newlocal() {
+                var str = JSON.stringify(arr);
+                localStorage.setItem('list', str)
+            };
+
+            //把保存的数据渲染到页面中；
+            function renderer() {
+                //清空li; 防止页面数据重复加载；
+                $('ol,ul').empty();
+                //循环遍历数组；
+                $.each(arr, function(index, element) {
+                    //判断自定义属性的状态；
+                    if (element.ch) {
+                        // 创建Li元素对象；
+                        /*此处添加checked是因为，渲染出来的按钮状态是未选中的，而进入这个判断
+                         * 说明此时的按钮状态应该是选中状态；所以需要手动添加来修改状态的变化*/
+                        var li = $(`<li><input type="checkbox" checked><p>${element.text}</p><a href="#" id_="${index}"></a></li>`);
+                        //把创建的元素对象添加到ol中；
+                        $('ul').prepend(li);
+                    } else {
+                        // 创建Li元素对象；
+                        var li = $(`<li><input type="checkbox"><p>${element.text}</p><a href="#" id_="${index}"></a></li>`);
+                        //把创建的元素对象添加到ol中；
+                        $('ol').prepend(li);
+                    }
+                })
+            }
+
+            //让arr作为全局变量使用；
+            var arr = local();
+            //页面一加载就渲染页面；
+            renderer();
+
+            //注册文本框鼠标按下事件；
+            $('#title').keydown(function(e) {
+                //判断按下的案件类型；
+                if (e.keyCode == 13) {
+                    //获取文本域内容；
+                    var text = $(this).val();
+                    //把数据储存到对象中；
+                    var obj = {
+                            text: text,
+                            ch: false, //新创建的li处于未选中状态；
+                        }
+                        //把对象添加到数组中；从后添加；
+                    arr.push(obj);
+                    //从新把数据保存到本地；
+                    newlocal();
+                    //把保存的数据渲染到页面中；
+                    renderer();
+                    //清空文本域；
+                    $(this).val('');
+                }
+            });
+
+            //注册按钮删除事件；原理事件委托；
+            $('ol,ul').on('click', 'a', function() {
+                //获取a对应的索引值；
+                var index = $(this).attr('id_');
+                //从数组中删除指定位置的数据；
+                arr.splice(index, 1);
+                //从新保存数据；
+                newlocal();
+                //把保存的数据渲染到页面中；
+                renderer();
+            });
+
+
+            // //注册按钮点击事件；修改自定义属性；
+            $('ol,ul').on('click', 'input', function() {
+                //获取当前点击对象的索引值；
+                var index = $(this).siblings('a').attr('id_');
+                //根据索引从数组中修改对应的按钮状态；
+                arr[index].ch = $(this).prop('checked');
+                //从新把数据保存到本地；
+                newlocal();
+                //把保存的数据渲染到页面中；
+                renderer();
+            })
+        });
+    </script>
+</body>
+
+</html>

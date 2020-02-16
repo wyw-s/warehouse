@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 450px;
+            height: 450px;
+            border: 1px solid #aaa;
+            position: relative;
+            top: 100px;
+            left: 100px;
+        }
+
+        .small {
+            width: 450px;
+            height: 450px;
+            position: absolute;
+        }
+
+        .mask {
+            position: absolute;
+            background-color: rgba(255, 255, 0, .3);
+            border: 1px solid #ff0;
+            width: 225px;
+            height: 225px;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+
+        .big {
+            width: 450px;
+            height: 450px;
+            border: 1px solid #aaa;
+            position: absolute;
+            left: 500px;
+            top: 0;
+            overflow: hidden;
+            display: none;
+        }
+
+        .big > img {
+            width: 900px;
+            height: 900px;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+<div class="box">
+    <!--  -->
+    <div class="small">
+        <img alt="" src="./images/s.jpg">
+        <div class="mask"></div>
+    </div>
+    <!--  -->
+    <div class="big">
+        <img alt="" src="./images/big.jpg">
+    </div>
+</div>
+</body>
+<script>
+    //获取元素对象；
+    var box = document.querySelector('.box');
+    var small = document.querySelector('.small');
+    var mask = document.querySelector('.mask');
+    var big = document.querySelector('.big');
+    var img=document.querySelector('.big img');
+
+    //给大盒子注册鼠标移动事件；
+    small.onmousemove = function (e) {
+        //让鼠标移入后，大图显示出来；
+        big.style.display = 'block';
+        //同时让跟随鼠标移动的显示区域显示出来；
+        mask.style.display = 'block';
+        //让显示区域跟着鼠标动；并让显示区域的中心点和鼠标重合；
+        //鼠标的坐标减去box的坐标得到的是鼠标在mask里面，相对于mask的坐标位置；
+        var x = e.pageX - box.offsetLeft - mask.offsetWidth / 2;
+        var y = e.pageY - box.offsetTop - mask.offsetHeight / 2;
+        //显示区域能移动的最大范围；
+        var max_x=small.clientWidth - mask.offsetWidth;
+        var max_y=small.clientHeight - mask.offsetHeight;
+        //给显示区域限制范围；
+        // 限制顶部范围
+        if (x < 0) {
+            x = 0;
+        }
+        //左
+        if (y < 0) {
+            y = 0;
+        }
+        //右；
+        if (x >max_x ) {
+            x = max_x;
+        }
+        //下
+        if (y > max_y) {
+            y = max_y;
+        }
+        mask.style.left = x + 'px';
+        mask.style.top = y + 'px';
+        //放大镜效果；计算大图的最大移动范围；
+        var X=img.offsetWidth-big.offsetWidth;
+        var Y=img.offsetHeight-big.offsetHeight;
+        //大图的移动位置；
+        img.style.left=-x*X/max_x+'px';
+        img.style.top=-y*Y/max_y+'px';
+        console.log(-x*Y/max_x,-X*max_y/x)
+
+    }
+    //同时给大盒子注册鼠标移出事件；
+    small.onmouseout = function () {
+        //让鼠标移出后，大图消失；
+        big.style.display = 'none';
+        //让鼠标移出后，显示区域消失；
+        mask.style.display = 'none';
+    }
+    /*
+    * 问题1：
+    *   1、实现显示区域跟着鼠标移动的同时，需要解决中心点重合问题；
+    * 解决：同时减去显示区域自身宽高的一半；
+    *
+    * 问题2；
+    *   1、当显示区域的中心点和鼠标重合后，虽然上面注册了鼠标的离开事件；
+    *       但是，当鼠标移入mask后显示区域不会跟着消失；
+    * 分析；虽然鼠标移出了mask但是依然作用在显示区域上面，根据冒泡原理；
+    *       鼠标移动事件一直在触发；
+    * 解决：给限制一个范围，若超过此范围则不再跟着鼠标移动；*/
+
+</script>
+
+</html>

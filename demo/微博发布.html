@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>微博发布效果</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .weibo {
+            width: 600px;
+            border: 1px solid #ccc;
+            margin: 100px auto;
+            padding: 10px;
+        }
+
+        .weibo-text {
+            width: 590px;
+            height: 140px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            outline: none;
+            resize: none;
+        }
+
+        .weibo-text:focus {
+            border-color: #f60;
+        }
+
+        .weibo-btn {
+            width: 80px;
+            height: 30px;
+            background-color: #f90;
+            color: #fff;
+            border: 0 none;
+            margin-top: 5px;
+            border-radius: 3px;
+            cursor: pointer;
+            outline: 0 none;
+        }
+
+        .weibo-list {
+            padding-top: 10px;
+        }
+
+        .weibo-list li {
+            font-size: 14px;
+            line-height: 30px;
+            border-bottom: 1px dotted #ccc;
+            overflow: hidden;
+        }
+
+        .weibo-list li p {
+            float: left;
+        }
+
+        .weibo-list li span {
+            float: right;
+            cursor: pointer;
+        }
+
+        .weibo-list li input {
+            height: 24px;
+            line-height: 24px;
+            width: 300px;
+            font-size: 14px;
+            border: 0 none;
+        }
+    </style>
+</head>
+
+<body>
+<div class="weibo">
+    <textarea class="weibo-text"></textarea>
+    <input class="weibo-btn" type="button" value="发布">
+    <ul class="weibo-list">
+    </ul>
+</div>
+</body>
+<script>
+
+    //获取元素对象；
+    function my$(css) {
+        return document.querySelector(css);
+    }
+
+    //获取按钮元素对象；
+    var btn = my$('.weibo-btn');
+    //获取文本元素对象；
+    var wtext = my$('.weibo-text');
+    //获取ul元素对象；
+    var ul = my$('.weibo-list');
+    //函数的调用；
+    var arr = local();
+    //函数的调用；
+    renderer();
+    //函数的自调用；
+    (function () {
+        click();
+        button();
+        keyboard();
+    })()
+
+    //获取本地的数据；
+    function local() {
+        var str = localStorage.getItem('list');
+        //判断本地是否有数据；有则转换为对象，无则为空；
+        if (str != null) {
+            //转换为对象；
+            return JSON.parse(str);
+        } else {
+            return [];
+        }
+    }
+
+    //把获取到的数据从新储存到本地；
+    function Storage() {
+        var str = JSON.stringify(arr);
+        localStorage.setItem('list', str);
+    }
+
+    //把获取到的数据渲染到页面上；
+    function renderer() {
+        //清空Li；
+        ul.innerHTML = '';
+        //循环遍历数组arr；
+        for (var i = 0; i < arr.length; i++) {
+            //创建li元素对象；
+            var li = document.createElement('li');
+            //给新创建的li添加内容；
+            li.innerHTML = `<p>${arr[i].text}</p><span id_="${arr[i].id_}">${arr[i].date}删除</span>`;
+            //把创建的Li添加到ul中；从前面添加；
+            ul.insertBefore(li, ul.children[0]);
+        }
+    }
+
+    //获取文本内容；
+    function conment() {
+        //获取文本域内容；
+        var text = wtext.value;
+        //创建li元素对象；
+        var li = document.createElement('li');
+        //添加时间擢；
+        var ti = Math.random() * Date.now();
+        //日期；
+        var date = time();
+        //给新创建的li添加内容；
+        li.innerHTML = `<p>${text}</p><span id_="${ti}">${date}删除</span>`;
+        //把创建的Li添加到ul中；从前面添加；
+        ul.insertBefore(li, ul.children[0]);
+        //把新创建的元素抽象为对象；
+        var obj = {
+            text: text,
+            id_: ti,
+            date: date,
+        }
+        //把对象储存到数组中；从后添加；
+        arr.push(obj);
+    }
+
+    //注册按钮点击事件；
+    function click() {
+        btn.onclick = function () {
+            //获取文本内容；
+            conment();
+            //把数据保存到本地；
+            Storage();
+            //渲染；
+            renderer();
+            //清空文本域
+            wtext.value = '';
+        }
+    }
+
+    //用事件委托，给父元素ul注册点击事件；
+    function button() {
+        ul.onclick = function (e) {
+            //获取当前的点击对象；
+            var current = e.target;
+            //获取当前点击对象的节点；
+            var node = current.nodeName;
+            //判断当前的点击对象是否是span；
+            if (node == 'SPAN') {
+                //获取当前点击对象的父元素；
+                var li = current.parentNode;
+                //删除获取到的父元素；
+                ul.removeChild(li);
+                //获取当前点击对象的自定义属性值；
+                var Zid = current.getAttribute('id_');
+                //遍历数组；
+                for (var i = 0; i < arr.length; i++) {
+                    //判断；
+                    if (arr[i].id_ == Zid) {
+                        //若匹配则从数组中删除；
+                        arr.splice(i, 1);
+                        break;
+                    }
+                }
+                //从新保存到本地；
+                Storage();
+            }
+        }
+    }
+
+    //组合键发布；
+    function keyboard() {
+        wtext.onkeydown = function (e) {
+            if (e.keyCode == 13 && e.ctrlKey) {
+                conment();
+                //把数据保存到本地；
+                Storage();
+                //渲染；
+                renderer();
+                //清空文本域
+                wtext.value = '';
+            }
+        }
+    }
+
+    // 添加时间；
+    function time() {
+        var date = new Date();
+        var year = date.getFullYear();
+        var month = date.getMonth() + 1;
+        month = youhua(month);
+        var day = date.getDate();
+        day = youhua(day);
+        var hour = date.getHours();
+        hour = youhua(hour);
+        var minute = date.getMinutes();
+        minute = youhua(minute);
+        var second = date.getSeconds();
+        second = youhua(second);
+        return `${year}-${month}-${day} ${hour}-${minute}-${second}`;
+    }
+
+    function youhua(numb) {
+        if (numb < 10) {
+            numb = '0' + numb
+        }
+        return numb;
+    }
+
+    
+
+
+</script>
+
+</html>

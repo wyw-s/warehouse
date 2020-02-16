@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        span {
+            width: 100px;
+            /* height: 20px; */
+            display: inline-block;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        // 乘法口诀有9行，所以最外面的循环时控制行数；
+        for (var i = 1; i <= 9; i++) {
+            // 因为每一行都比上一行多一，所以这里是j<=i;
+            for (var j = 1; j <= i; j++) {
+                var a = j * i;
+                // 字符串的拼接，要注意变量不能在单（双）引号里面，
+                document.write('<span>' + j + ' * ' + i + ' = ' + a + '</span>');
+            }
+            // write 语句可以识别html代码；
+            document.write('</br>');
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+
+        input {
+            vertical-align: middle;
+            outline-style: none;
+            border: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .bgc {
+            background-color: bisque;
+        }
+
+        .box {
+            width: 980px;
+            margin: 60px auto 0;
+
+        }
+
+        .box .pub {
+            height: 30px;
+            line-height: 30px;
+            background-color: #ccc;
+        }
+
+        .top span:nth-child(2) {
+            margin-left: 500px;
+        }
+
+        .top span:nth-child(3) {
+            margin: 0 60px;
+        }
+
+        .box strong {
+            color: red;
+            font-size: 16px;
+        }
+
+        .middle {
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        .middle li {
+            height: 119px;
+            line-height: 119px;
+            border: 1px solid #cccccc;
+            border-bottom: 0;
+        }
+
+        .middle li :nth-child(4) {
+            margin-left: 300px;
+        }
+
+        .middle li :nth-child(5) {
+            margin: 0 24px;
+        }
+
+        .middle li p {
+            line-height: 30px;
+        }
+
+        .middle li input:first-child {
+            margin-left: 30px;
+        }
+
+        .middle li:last-child {
+            border-bottom: 1px solid #cccccc;
+        }
+
+        .middle img {
+            vertical-align: middle;
+        }
+
+        .middle div {
+            display: inline-block;
+        }
+
+        .middle .num {
+            height: 20px;
+            line-height: 18px;
+            text-align: center;
+            border: 1px solid #cccccc;
+        }
+
+        .middle .num input {
+            width: 30px;
+            text-align: center;
+        }
+
+        .middle .num span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .middle .num span:first-child {
+            border-right: 1px solid #cccccc;
+        }
+
+        .middle .num span:last-child {
+            border-left: 1px solid #cccccc;
+        }
+
+        .box .bottom span {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .box .bottom :nth-child(2),
+        .box .bottom :nth-child(3) {
+            color: #666;
+            margin-left: 50px;
+        }
+
+        .box .bottom :nth-child(4) {
+            margin-left: 296px;
+        }
+
+        .box .bottom :nth-child(5) {
+            margin-left: 6px;
+        }
+
+        .box .middle a {
+            text-decoration: none;
+            color: #cccccc;
+            margin-left: 70px;
+        }
+    </style>
+</head>
+<body>
+<div class='box'>
+    <div class='top pub'>
+        <input type="checkbox"> 全选
+        <span>单价</span>
+        <span>数量</span>
+        <span>小计</span>
+    </div>
+    <div class='middle'>
+        <ul>
+            <li>
+                <input type="checkbox">
+                <img alt="" src="./荣耀.jpg">
+                <div>
+                    <p>荣耀i 超广角自拍</p>
+                    <p>荣耀i 超广角自拍</p>
+                </div>
+                <span>1299.00</span>
+                <div class='num'>
+                    <span>-</span>
+                    <input type="text" value='1'>
+                    <span>+</span>
+                </div>
+                <span>1299.00</span>
+                <a href="#">删除</a>
+            </li>
+            <li>
+                <input type="checkbox">
+                <img alt="" src="./荣耀.jpg">
+                <div>
+                    <p>荣耀i 超广角自拍</p>
+                    <p>荣耀i 超广角自拍</p>
+                </div>
+                <span>1299.00</span>
+                <div class='num'>
+                    <span>-</span>
+                    <input type="text" value='1'>
+                    <span>+</span>
+                </div>
+                <span>1299.00</span>
+                <a href="#">删除</a>
+            </li>
+            <li>
+                <input type="checkbox">
+                <img alt="" src="./荣耀.jpg">
+                <div>
+                    <p>荣耀i 超广角自拍</p>
+                    <p>荣耀i 超广角自拍</p>
+                </div>
+                <span>1299.00</span>
+                <div class='num'>
+                    <span>-</span>
+                    <input type="text" value='1'>
+                    <span>+</span>
+                </div>
+                <span>1299.00</span>
+                <a href="#">删除</a>
+            </li>
+        </ul>
+    </div>
+    <div class='bottom pub'>
+        <input type="checkbox">全选
+        <span>删除选中的商品</span>
+        <span>清空购物车</span>
+        <span>已选中<strong>3</strong>件商品</span>
+        <span>总价<strong>3897.00</strong></span>
+    </div>
+</div>
+
+</body>
+<script src="../../jQuery.min.js"></script>
+<script>
+    //入口函数；
+    $(function () {
+        //获取全选按钮;注册点击事件；================================全选！
+        $('.box .pub input').click(function () {
+            //获取当前的按钮checkbox属性值；
+            var state = $(this).prop('checked');
+            //获取所有的子项按钮；
+            $('.box .middle input').prop('checked', state);
+            //全选加背景；
+            if (state == true) {
+                $('.middle ul > li').addClass('bgc');
+            } else {
+                $('.middle ul > li').removeClass('bgc');
+            }
+        });
+
+        // 获取全选的子项按钮并注册点击事件；=========================单选！
+        $('.box .middle input').click(function () {
+            //开关思想；
+            var key_ = true;
+            $('.box .middle li > input').each(function (index, item) {
+                //转换为jQuery对象；
+                var key = $(item).prop('checked');
+                //判断：只要有一个按钮不成立，则全选按钮不选中；
+                if (key == false) {
+                    $(this).parent('.box').prop('checked', false);
+                    key_ = false;
+                }
+                $('.box .pub input').prop('checked', key_);
+            });
+            //获取当前的按钮checkbox属性值；
+            var key = $(this).prop('checked');
+            //判断当前按钮的选中状态；
+            if (key == true) {
+                //给当前按钮的父元素添加类样式；
+                $(this).parent().addClass('bgc');
+            } else {
+                $(this).parent().removeClass('bgc');
+            }
+        });
+
+        //实现：加减数量；===========================================数量！
+        //给加按钮注册点击事件；
+        $('.middle .num :last-child').click(function () {
+            var text = $(this).siblings('input').val()
+            text++
+            //修改属性值；
+            $(this).siblings('input').val(text);
+            //获取小计的属性值；
+            var xiaoji = $(this).parent().prev().text();
+            //修改属性值；总价=数量*单价；
+            var sum = xiaoji * text;
+            $(this).parent().next().text(sum.toFixed(2));
+            f_sum();
+        });
+
+        //给减按钮注册点击事件；
+        $('.middle .num :first-child').click(function () {
+            var text = $(this).siblings('input').val();
+            text--
+            //判断当小于等于1时，数量不在变化；
+            if (text < 1) {
+                $(this).siblings('input').val(1);
+            } else {
+                //修改属性值；
+                $(this).siblings('input').val(text);
+                //获取小计的属性值；
+                var xiaoji = $(this).parent().prev().text();
+                //修改属性值；总价=数量*单价；
+                var sum = xiaoji * text;
+                $(this).parent().next().text(sum.toFixed(2));
+            }
+            f_sum();
+        });
+
+        //当用户手动填写文本域时，价格也应发生变化；===================手动！
+        $('.box .num input').change(function () {
+            //获取数量；
+            var text = $(this).val();
+            //获取单价；
+            var price = $(this).parent().prev().text();
+            //计算总价；
+            var sum = text * price;
+            //修改属性值；
+            $(this).parent().next().text(sum.toFixed(2));
+            f_sum();
+        });
+
+        //计算总数量和总价；=========================================总价！
+        function f_sum() {
+            //定义变量；
+            var sum_1 = 0;//计算总数量；
+            var sum_2 = 0;//计算总价格；
+            //计算总数量；
+            //获取所有的文本内容；
+            $('.box .num input').each(function (index, item) {
+                var text = $(item).val();
+                sum_1 += parseInt(text);
+            });
+            //修改总数量；
+            $('.box .bottom :nth-child(4) strong').text(sum_1);
+            //获取所有的小计的文本内容；
+            $('.middle li > span:nth-of-type(2)').each(function (index, item) {
+                var text = $(item).text();
+                sum_2 += parseFloat(text);
+            })
+            //修改总价；
+            $('.box .bottom :nth-child(5) strong').text(sum_2.toFixed(2));
+        };
+
+        //添加删除；=================================================删除！
+        //获取删除元素对象,并注册点击对象；
+        $('.box .middle a').click(function () {
+            //获取当前点击对象的父元素；
+            $(this).parent('li').remove();
+            f_sum();
+        });
+
+        //删除选中的商品；
+        //获取删除元素对象,并注册点击对象；
+        $('.box .bottom >span:nth-of-type(1)').click(function () {
+            //获取所有的子项按钮的状态；
+            // $('.box .middle input').each(function (index, item) {
+            //     var state = $(item).prop('checked');
+            //     //判断所有的按钮的选中状态；若为选中则删除；
+            //     if (state == true) {
+            //         $(item).parent('li').remove();
+            //     }
+            // });
+            //匹配所i有的被选中的元素；
+            $('.box .middle input:checked').parent().remove();
+            // console.log($('.box .middle input:checked'));
+            // console.log($('.box .middle input:checked').parent());
+            f_sum();
+        });
+
+        //清空购物车；==========================================清空购物车！
+        //获取删除元素对象,并注册点击对象；
+        $('.box .bottom >span:nth-of-type(2)').click(function () {
+            //获取所有的Li并删除；
+            $('.box .middle ul').empty();
+            f_sum();
+        })
+    });
+</script>
+</html>

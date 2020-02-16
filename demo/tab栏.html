@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .wrapper {
+            width: 1000px;
+            height: 475px;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+
+        .tab {
+            border: 1px solid #ddd;
+            border-bottom: 0;
+            height: 36px;
+            width: 320px;
+        }
+
+        .tab li {
+            position: relative;
+            float: left;
+            width: 80px;
+            height: 34px;
+            line-height: 34px;
+            text-align: center;
+            cursor: pointer;
+            border-top: 4px solid #fff;
+        }
+
+        .tab span {
+            position: absolute;
+            right: 0;
+            top: 10px;
+            background: #ddd;
+            width: 1px;
+            height: 14px;
+            overflow: hidden;
+        }
+
+        .products {
+            width: 1002px;
+            border: 1px solid #ddd;
+            height: 476px;
+        }
+
+        .products .main {
+            float: left;
+            display: none;
+        }
+
+        .products .main.selected {
+            display: block;
+        }
+
+        .tab li.active {
+            border-color: red;
+            border-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+<div class="wrapper">
+    <ul class="tab">
+        <li class="tab-item active">国际大牌</li>
+        <li class="tab-item">国妆名牌</li>
+        <li class="tab-item">清洁用品</li>
+        <li class="tab-item">男士精品</li>
+    </ul>
+    <div class="products">
+        <div class="main selected">
+            <a href="###"><img alt="" src="images/guojidapai.jpg"/></a>
+        </div>
+        <div class="main">
+            <a href="###"><img alt="" src="images/guozhuangmingpin.jpg"/></a>
+        </div>
+        <div class="main">
+            <a href="###"><img alt="" src="images/qingjieyongpin.jpg"/></a>
+        </div>
+        <div class="main">
+            <a href="###"><img alt="" src="images/nanshijingpin.jpg"/></a>
+        </div>
+    </div>
+</div>
+
+</body>
+<script>
+    //需求：鼠标划过导航栏，图片也要相对应的切换；
+    /*
+    * 1、鼠标滑过改变样式，所以需要注册鼠标移入事件；
+    *   1.改变样式，需要操作类样式（添加或删减）；
+    *   2.划过后只改变当前的类样式，其他的没有；
+    *   3.排他思想；
+    * 2、鼠标划过样式改变的同时，图片也要相对应的显示出来；
+    *   1.同理只能显示当前需要显示的类样式，其他的都不能显示出来；
+    *   2.排他思想；
+    * */
+    //获取div和图片的所有的元素的对象；
+    var div = document.querySelectorAll('.tab-item');
+    var img = document.querySelectorAll('.main');
+    //循环遍历的方式给所有的Li注册鼠标移入事件；
+    for (var i = 0; i < div.length; i++) {
+        //循环遍历给所有的li添加自定义属性；
+        div[i].setAttribute('_index', i);
+        //注册鼠标移入事件;
+        div[i].onmouseover = function () {
+            //鼠标移入后清除所有Li的当前类样式；
+            for (var j = 0; j < div.length; j++) {
+                div[j].classList.remove('active');
+            }
+            //给自己添加类样式；要用this！！
+            this.classList.add('active');
+            //======================================
+            //鼠标进入的同时，应当显示相对应的图片；
+            /*
+            * 在注册鼠标移入事件的同时，给所有的Li添加自定义的类样式
+            * 属性值用数字，相当于索引；*/
+            //获取当前移入的自定义的属性的值；
+            var hq = this.getAttribute('_index');
+            //同理；鼠标移入后清除所有img的当前类样式；
+            for (var k = 0; k < img.length; k++) {
+                img[k].classList.remove('selected');
+            }
+            //给自己添加类样式；不能在使用this;要用变量；
+            img[hq].classList.add('selected');
+        }
+    }
+</script>
+</html>

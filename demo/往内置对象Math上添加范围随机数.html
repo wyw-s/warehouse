@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 需求：获取n-m之间的随机数、n<m；
+        // 封装函数；传入形参；设置返回值；
+        function f1(n, m) {
+            // 定义变量，通过Math方法来获取随机数；
+            // Math方法获取随机数；
+            // var random_num = Math.random();
+            // 先获取0~(m - n + 1)之间范围的数；
+            // random_num = Math.random() * (m - n + 1);
+            // 因为得到是小数所以要下取整（包含零、包含n）之所以能取到n是因为+1；
+            // random_num = Math.floor(Math.random() * (m - n + 1));
+            // +n 获取m-n之间的数；
+            // var scope = random_num + n;
+            // 简写；scope==范围
+            var scope = Math.floor(Math.random() * (m - n + 1)) + n;
+            // 设置返回值；
+            return scope;
+        }
+        // 往内置对象Math上添加方法；
+        Math.f1 = function(n, m) {
+                var scope = Math.floor(Math.random() * (m - n + 1)) + n;
+                // 返回值；
+                return scope;
+            }
+            // 调用方法并传入实参，
+            // 传入的实参之所以可以随意调换位置，是因为后面加了一个很大的数n,加为正值了；
+        console.log(Math.f1(10, 20));
+    </script>
+
+</body>
+
+</html>

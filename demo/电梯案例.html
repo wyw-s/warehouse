@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+         * {
+             margin: 0;
+             padding: 0;
+         }
+
+         .box {
+              width: 980px;
+              margin: 0 auto;
+         }
+
+         .public {
+             height: 300px;
+             margin-bottom: 10px;
+         }
+
+         .item1 {
+             background-color: pink;
+         }
+
+          .item2 {
+          background-color: red;
+          }
+
+           .item3 {
+           background-color: blue;
+           } 
+           
+           .item4 {
+             background-color: orange;
+         }
+
+         .other {
+              height: 1000px;
+              
+         }
+         ul {
+              position: fixed;
+              left: 0;
+              top: 400px;
+         }
+         li {
+             border-bottom: 1px solid #ccc;
+             height: 30px;
+             line-height: 30px;
+             padding: 0 25px;
+             cursor: pointer;
+         }
+
+
+
+         .active {
+             background-color: red;
+             color: #fff;
+         }
+    </style>
+</head>
+<body>
+    
+
+     <div class="box">
+          <div class="item1 public">1</div>
+          <div class="item2 public">2</div>
+          <div class="item3 public">3</div>
+          <div class="item4 public">4</div>
+     </div>
+
+     <div class="other"></div>
+
+     <ul>
+         <li>1</li>
+         <li>2</li>
+         <li>3</li>
+         <li>4</li>
+     </ul>
+
+
+     <script src="jQuery.min.js"></script>
+
+     <script>
+
+        //1. 给每一个li注册一个点击事件
+        $('li').click(function(){
+
+            //给当前li添加一个样式,兄弟元素移除元素
+            $(this).addClass('active').siblings().removeClass('active');
+
+
+            //要获取点击li对应的哪个内容元素
+
+            // 1. 先获取当前点击li的索引值
+
+            var index = $(this).index();
+
+            // 2. 要根据索引值获取对应的内容区域盒子
+            var item = $('.public').eq(index);
+            
+            // 3. 得到当前内容盒子距离文档顶部的距离
+
+            var length  = item.offset().top;
+
+            // 4. 将该值赋值给整个文档滚动出去的距离
+
+            $('html').stop().animate({
+                    scrollTop: length
+            })
+        })
+     
+     </script>
+      
+</body>
+</html>

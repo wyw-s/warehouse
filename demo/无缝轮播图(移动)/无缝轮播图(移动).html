@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        .box {
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        ul {
+            /* 把li变成8张之后，需要，把ul的宽度变宽 */
+            width: 800%;
+            transition: all 300ms;
+        }
+        
+        li {
+            float: left;
+            width: 12.5%;
+        }
+        
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <!-- 结构 -->
+    <!-- li*6>a[href=#]>img[src=./images/$.jpg] -->
+    <div class="box">
+        <ul>
+            <li>
+                <a href="#"><img alt="" src="./images/6.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img alt="" src="./images/1.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img alt="" src="./images/2.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img alt="" src="./images/3.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img alt="" src="./images/4.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img alt="" src="./images/5.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img alt="" src="./images/6.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img alt="" src="./images/1.jpg"></a>
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="./js/zepto.js"></script>
+<script src="./js/touch.js"></script>
+<script>
+    //获取；
+    var box = $('.box');
+    var ul = $("ul");
+    var li = $("li");
+    //获取图片的宽度；
+    var imgwidth = li.width();
+    //定义变量控制图片的滑动次数；
+    var lc = 1;
+    //关闭过渡；
+    ul.css('transition', 'none');
+    //让页面加载完成图片位于索引为1的位置；（解决不友好体验）
+    ul.css('transform', 'translate(-' + imgwidth * lc + 'px)');
+    //打开过渡；
+    setTimeout(function() {
+            ul.css('transition', 'all 300ms');
+        }, 1)
+        //给box注册左划事件；
+    box.on('swipeLeft', function() {
+            //滑动一次就增加一次；
+            lc++;
+            /*当lc为length的时候，应当显示第一张图片；
+             if (lc > li.length - 1) {
+                 lc = 1;
+             }
+             在这里不需要再进行判断了，因为下面的代码已经得到了解决（过渡结束事件）；
+             */
+            //计算ul的移动的距离；元素做移动为  负值！！
+            ul.css('transform', 'translateX(-' + imgwidth * lc + 'px)');
+        })
+        //给box注册右划事件；
+    box.on('swipeRight', function() {
+            //滑动一次就减少一次；1
+            lc--;
+            //计算ul的移动的距离；
+            ul.css('transform', 'translateX(-' + imgwidth * lc + 'px)');
+        })
+        //添加过渡结束事件；
+    ul.on('transitionend', function() {
+        //动画结束时，此时的图片的下标为7，应当回到下标为1的位置；（li.length=8）；
+        if (lc == li.length - 1) {
+            lc = 1;
+            //关闭过渡；
+            ul.css('transition', 'none');
+            //并让图片回到下标为1的位置；
+            ul.css('transform', 'translateX(-' + imgwidth * lc + 'px)');
+            /*
+            虽然这个过程已经实现了，但是此时由于过渡效果的存在；
+            导致无法实现‘无缝’切换；
+            解决：划到最后一张图片的时候，去掉过渡；过渡去掉之后不要立即打开；要有延迟；
+            */
+            // ul.css('transition','transform 0ms');
+            //之后再打开；用定时器解决；
+            setTimeout(function() {
+                ul.css('transition', 'all 300ms');
+            }, 1)
+        }
+        if (lc == 0) {
+            lc = li.length - 2;
+            ul.css('transition', 'none');
+            //并让图片回到下标为1的位置；
+            ul.css('transform', 'translateX(-' + imgwidth * lc + 'px)');
+            //之后再打开；用定时器解决；
+            setTimeout(function() {
+                ul.css('transition', 'all 300ms');
+            }, 1)
+        }
+    })
+</script>
+
+</html>

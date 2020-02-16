@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 需求一组数据实现从小到大或从大到少排列；
+        var arr = [2, 4, 16, 6, 21, 8, 9, 0];
+        /* 因为每个数字都要进行一次的比较；
+           而比较过的数字在下一轮不需要进行比较了；
+           所以一共比较arr.length - 1轮次；
+           而每个数字则比较arr.length - 1-i次；
+         */
+        //  控制比较的轮次；
+        for (var i = 1; i <= arr.length - 1; i++) {
+            // 控制每个数字比较的次数；
+            for (var j = 0; j < arr.length - i; j++) {
+                // 如果成立则进入判断；若不成立则进入下一次循环；
+                if (arr[j] > arr[j + 1]) {
+                    // 第三方变量用于存放待交换的数据；
+                    // 原理就是arr[j+1]的数据暂时赋值给a，
+                    // 然后arr[j]的数据赋值给arr[j+1]，
+                    // 此时的结果是arr[j+1]和arr[j]的结果相同，
+                    // 然后把暂时存在a里面的数据从新赋值给arr[j]；
+                    // 此时便实现了交换；
+                    var a = arr[j + 1];
+                    arr[j + 1] = arr[j];
+                    arr[j] = a;
+                }
+            }
+        }
+        console.log(arr);
+    </script>
+
+</body>
+
+</html>

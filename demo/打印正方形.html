@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        
+        span {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: red;
+            border-radius: 20px;
+        }
+        
+        i {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: rgb(21, 228, 66);
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        // 第一次外面循环体循环一次，并判断奇偶；
+        // 外面的循环体控制的是行数；
+        for (var i = 1; i <= 10; i++) {
+            // 余数为0，便是为偶行；
+            if (i % 2 == 0) {
+                // 因为一行有10个，并且每列交叉，所以需要控制奇偶；
+                for (var j = 0; j < 10; j++) {
+                    // 余数为0，便是为偶列；并根据奇偶来打印不同的样式；
+                    if (j % 2 == 0) {
+                        document.write('<span></span>');
+                    } else {
+                        document.write('<i></i>');
+                    }
+                }
+                document.write('</br>');
+            } else {
+                for (var a = 0; a < 10; a++) {
+                    if (a % 2 == 0) {
+                        document.write('<i></i>');
+                    } else {
+                        document.write('<span></span>');
+                    }
+                }
+                // 第二个循环体每次循环都打印10个
+                document.write('</br>');
+            }
+        }
+    </script>
+
+</body>
+
+</html>
