@@ -204,3 +204,9 @@ npm install --global 包名
 npm uninstall --global 包名
 ```
 
+## 清除`npm`缓存
+
+```bash
+$ npm cache clean --force
+```
+

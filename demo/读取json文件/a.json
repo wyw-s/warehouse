@@ -1,0 +1,2101 @@
+{
+  "user": "USR7XRC8KIJG8RMFI5AL9S54ZV994YCJBRXREY2",
+  "examineid": 468482,
+  "questioncount": 45,
+  "rightcount": 8,
+  "subjectivescore": 0,
+  "objectivescore": 16.0,
+  "lostfocustimelist": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "2020-06-05 21:55:25&&",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "2020-06-05 21:56:27&&2020-06-05 21:56:30&&",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "lostcount": 2,
+  "lostlongesttime": 3.0,
+  "score": 16.0,
+  "totalscore": 100.0,
+  "usetime": 180,
+  "examinestatus": 2,
+  "examinetype": {
+    "id": 509,
+    "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+    "name": "433_MAG\u5185\u63a7\u4e0eBCG\u8003\u8bd5",
+    "way": 1,
+    "status": 1,
+    "score": 0,
+    "showanswer": true,
+    "passrate": 0.6,
+    "worktime": 3600,
+    "created": "2020-01-17 10:05:46",
+    "fixquestion": 0,
+    "objectiverate": 0.5,
+    "level": 0,
+    "userule": 0,
+    "modified": "2020-05-08 17:14:58",
+    "description": "433_MAG\u5185\u63a7\u4e0eBCG\u8003\u8bd5",
+    "questioncount": 45,
+    "icon": "",
+    "randomquestionorder": 0,
+    "randomquestionitemorder": 1,
+    "wayname": "\u81ea\u52a8\u7ec4\u5377",
+    "statusname": "\u5df2\u53d1\u5e03"
+  },
+  "pass": 0,
+  "starttime": "2020-06-05 21:53:27",
+  "endtime": "2020-06-05 21:56:27",
+  "supplement": "[\"\"]",
+  "answers": [
+    {
+      "id": 16484952,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u4f01\u4e1a\u6240\u8bf4\u7684BCG\uff0c\u4e2d\u6587\u610f\u601d\u662f\u4ec0\u4e48&nbsp;&nbsp;&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58896991",
+          "content": "<p>&nbsp;\u4ee5\u4e0a\u90fd\u4e0d\u5bf9\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58896989",
+          "content": "<p>&nbsp;\u6ce2\u58eb\u987f\u54a8\u8be2\u516c\u53f8\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58896990",
+          "content": "<p>&nbsp;\u5546\u4e1a\u63a7\u5236\u89c4\u8303\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58896988",
+          "content": "<p>\u5546\u4e1a\u884c\u4e3a\u51c6\u5219\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58896989",
+      "answer": "58896988",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 4.5,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 1,
+      "programitems": {}
+    },
+    {
+      "id": 16484953,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u5185\u63a7\u7684\u76ee\u7684\u662f\u4ec0\u4e48(&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58896993",
+          "content": "<p>&nbsp;\u5145\u5206\u6709\u6548\u5730\u83b7\u5f97\u548c\u4f7f\u7528\u5404\u79cd\u8d44\u6e90\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58896992",
+          "content": "<p>&nbsp;\u63d0\u9ad8\u7ecf\u8425\u6548\u7387\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58896994",
+          "content": "<p>&nbsp;\u8fbe\u5230\u65e2\u5b9a\u7ba1\u7406\u76ee\u6807\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58896995",
+          "content": "<p>&nbsp;\u4ee5\u4e0a\u90fd\u5bf9\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58896992",
+      "answer": "58896995",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 1.6,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 2,
+      "programitems": {}
+    },
+    {
+      "id": 16484954,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u4e0b\u5217\u54ea\u4e00\u9879\u548c\u534e\u4e3a\u5458\u5de5\u4e0d\u5b58\u5728\u5173\u8054\u5173\u7cfb&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58896996",
+          "content": "<p>&nbsp;\u534e\u4e3a\u5458\u5de5\u7684\u914d\u5076\u548c\u5b50\u5973\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58896999",
+          "content": "<p>&nbsp;\u4ee5\u4e0a\u4eba\u5458\u7684\u670b\u53cb\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58896998",
+          "content": "<p>&nbsp;\u4ee5\u4e0a\u4eba\u5458\u7684\u914d\u5076\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58896997",
+          "content": "<p>&nbsp;\u534e\u4e3a\u5458\u5de5\u592b\u59bb\u53cc\u65b9\u7684\u7236\u6bcd\u3001\u5144\u5f1f\u59d0\u59b9\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58896998",
+      "answer": "58896999",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 1.1,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 3,
+      "programitems": {}
+    },
+    {
+      "id": 16484955,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u4e2d\u56fd\u6cd5\u5f8b\u89c4\u5b9a\u975e\u56fd\u5bb6\u673a\u5173\u4eba\u5458\u884c\u8d3f\u53d7\u8d3f\u7d2f\u8ba1\u91d1\u989d\u8fbe\u5230\u591a\u5c11\u5c31\u53ef\u8d77\u8bc9&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;\u3002&nbsp;<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897000",
+          "content": "<p>&nbsp;2\u4e07\u5143\u4eba\u6c11\u5e01\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897003",
+          "content": "<p>&nbsp;10\u4e07\u5143\u4eba\u6c11\u5e01\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897001",
+          "content": "<p>&nbsp;4\u4e07\u5143\u4eba\u6c11\u5e01\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897002",
+          "content": "<p>&nbsp;6\u4e07\u5143\u4eba\u6c11\u5e01\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897001",
+      "answer": "58897002",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 1.2,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 4,
+      "programitems": {}
+    },
+    {
+      "id": 16484956,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u534e\u4e3a\u516c\u53f8\u5bf9\u5408\u4f5c\u516c\u53f8\u7684\u884c\u8d3f\u884c\u4e3a\u7684\u7ecf\u6d4e\u5904\u7f5a\u6570\u989d\u4e3a\uff1a\u81ea\u9996\u6b21\u8d3f\u8d42\u884c\u4e3a\u8d77\u81f3\u8d3f\u8d42\u884c\u4e3a\u88ab\u53d1\u73b0\u65f6\u4e3a\u6b62\u5408\u4f5c\u516c\u53f8\u5df2\u53d1\u751f\u7684\u91c7\u8d2d\u91d1\u989d&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;\u7684\u8fdd\u7ea6\u91d1\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897007",
+          "content": "<p>0.2<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897005",
+          "content": "<p>0.1<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897004",
+          "content": "<p>0.05<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897006",
+          "content": "<p>0.15<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897005",
+      "answer": "58897006",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 1.3,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 5,
+      "programitems": {}
+    },
+    {
+      "id": 16484957,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u4e0b\u5217\u54ea\u4e00\u9879\u8fdd\u53cd\u4e86\u5185\u63a7\u4e0eBCG\u7ba1\u7406\u8981\u6c42&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897008",
+          "content": "<p>&nbsp;\u8bf7\u5ba2\u6237\u4e00\u8d77\u5403\u4e86\u4e00\u6b21\u5de5\u4f5c\u9910\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897010",
+          "content": "<p>&nbsp;\u4e0b\u73ed\u540e\u5e2e\u5ba2\u6237\u5458\u5de5\u642c\u5bb6\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897009",
+          "content": "<p>&nbsp;\u5c06\u81ea\u5df1\u7684\u81ea\u884c\u8f66\u501f\u7ed9\u5ba2\u6237\u5458\u5de5\u4f7f\u7528\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897011",
+          "content": "<p>&nbsp;\u501f\u623f\u5b50\u7ed9\u5ba2\u6237\u5458\u5de5\u5c45\u4f4f\u4e0d\u6536\u623f\u79df\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897009",
+      "answer": "58897011",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 1.1,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 6,
+      "programitems": {}
+    },
+    {
+      "id": 16484958,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u5982\u679c\u4f60\u53d1\u73b0\u8eab\u8fb9\u5b58\u5728\u5185\u63a7\u4e0eBCG\u8fdd\u89c4\u884c\u4e3a\uff0c\u5e94\u8be5\u901a\u8fc7\u4ec0\u4e48\u6b63\u5f0f\u6e20\u9053\u4e3e\u62a5&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897013",
+          "content": "<p>&nbsp;\u5728\u90e8\u95e8\u804a\u5929\u7fa4\u91cc\u516c\u5f00\u53d1\u9001\u76f8\u5173\u4e3e\u62a5\u4fe1\u606f\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897014",
+          "content": "<p>&nbsp;\u5411MAG\u516c\u5e03\u7684\u4e3e\u62a5\u90ae\u7bb1\u5b9e\u540d\u53d1\u9001\u90ae\u4ef6\uff0c\u5e76\u79d8\u5bc6\u914d\u5408\u8c03\u67e5\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897012",
+          "content": "<p>&nbsp;\u62539007\u4e3e\u62a5\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897015",
+          "content": "<p>&nbsp;\u7ed9\u9ad8\u5c42\u9886\u5bfc\u53d1\u9001\u4e3e\u62a5\u90ae\u4ef6\u66dd\u5149\u8fdd\u89c4\u884c\u4e3a\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897014",
+      "answer": "58897014",
+      "score": 2.0,
+      "userscore": 2.0,
+      "answerexplain": "",
+      "worktime": 1.1,
+      "type": 0,
+      "isanswerright": true,
+      "ordernum": 7,
+      "programitems": {}
+    },
+    {
+      "id": 16484959,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u4e0b\u5217\u54ea\u9879\u884c\u4e3a\u4e0d\u8fdd\u53cd\u5185\u63a7\u4e0eBCG\u7684\u7ba1\u7406\u8981\u6c42&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897018",
+          "content": "<p>&nbsp;\u5411\u5ba2\u6237\u5bc4/\u9001\u793c\u54c1\u5238\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897019",
+          "content": "<p>&nbsp;\u627e\u670b\u53cb\u5e2e\u5fd9\u5f00\u636e\u5047\u79bb\u804c\u8bc1\u660e\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897017",
+          "content": "<p>&nbsp;\u865a\u6784\u7b80\u5386\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897016",
+          "content": "<p>&nbsp;\u5546\u4e1a\u4f1a\u8bae\u4e2d\u7b26\u5408\u5546\u4e1a\u884c\u4e3a\u60ef\u4f8b\u7684\u793c\u54c1\uff08\u4ef7\u503c\u4e0d\u8d85\u8fc7200\u5143\uff09\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897017",
+      "answer": "58897016",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 1.4,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 8,
+      "programitems": {}
+    },
+    {
+      "id": 16484960,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u5bf9\u5185\u63a7\u4e0eBCG\u4e00\u7ea7\u8fdd\u89c4\u5458\u5de5\u7684\u5904\u7f5a\uff0c\u4e0b\u8ff0\u63cf\u8ff0\u54ea\u4e2a\u662f\u9519\u8bef\u7684&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;\u3002</p>\n",
+      "answeritems": [
+        {
+          "sn": "58897022",
+          "content": "<p>&nbsp;\u8981\u6c42\u5458\u5de5\u8d54\u507f\u56e0\u8fdd\u89c4\u9020\u6210\u7684\u7ecf\u6d4e\u635f\u5931\u3002</p>\n",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897023",
+          "content": "<p>&nbsp;\u4e0d\u7ed9\u4e88\u8fdd\u89c4\u5458\u5de5\u79bb\u804c\u8bc1\u660e\u3002</p>\n",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897021",
+          "content": "<p>\u516c\u53f8\u65e0\u9700\u652f\u4ed8\u4efb\u4f55\u7ecf\u6d4e\u8865\u507f\u91d1\u7ed9\u8fdd\u89c4\u7684\u5458\u5de5\u3002</p>\n",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897020",
+          "content": "<p>&nbsp;\u7acb\u5373\u89e3\u9664\u52b3\u52a8\u5408\u540c&nbsp;\u3002</p>\n",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897023",
+      "answer": "58897023",
+      "score": 2.0,
+      "userscore": 2.0,
+      "answerexplain": "",
+      "worktime": 162.9,
+      "type": 0,
+      "isanswerright": true,
+      "ordernum": 9,
+      "programitems": {}
+    },
+    {
+      "id": 16484961,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u7b80\u5386\u9020\u5047\u3001\u5b66\u5386\u9020\u5047\u3001\u5047\u79bb\u804c\u8bc1\u660e\uff0c\u5c5e\u4e8e\u51e0\u7ea7\u5185\u63a7\u4e0eBCG\u8fdd\u89c4&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897025",
+          "content": "<p>&nbsp;\u4e8c\u7ea7<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897024",
+          "content": "<p>&nbsp;\u4e00\u7ea7&nbsp;<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897027",
+          "content": "<p>&nbsp;\u56db\u7ea7&nbsp;<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897026",
+          "content": "<p>&nbsp;\u4e09\u7ea7<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897026",
+      "answer": "58897024",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.5,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 10,
+      "programitems": {}
+    },
+    {
+      "id": 16484962,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u5728\u65e5\u5e38\u5de5\u4f5c\u4e2d\u53d1\u73b0\u4efb\u4f55\u5185\u63a7\u4e0eBCG\u8fdd\u89c4\u6216\u7591\u4f3c\u8fdd\u89c4\u884c\u4e3a\uff0c\u5e94\u4e3b\u52a8\u4e3e\u62a5\u81f3\u5b89\u5168\u5408\u89c4\u4e3e\u62a5\u90ae\u7bb1\uff0c\u5b89\u5168\u5408\u89c4\u4e3e\u62a5\u90ae\u7bb1\u662f&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;\uff1a<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897029",
+          "content": "<p>aqhgjb@isoftstone.com<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897031",
+          "content": "<p>tsyj@isoftstone.com<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897030",
+          "content": "<p>tsjy@isoftstone.com<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897028",
+          "content": "<p>aqhg@isoftstone.com<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897030",
+      "answer": "58897029",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 3.0,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 11,
+      "programitems": {}
+    },
+    {
+      "id": 16484963,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u4e0b\u5217\u54ea\u4e9b\u884c\u4e3a\u4e0d\u662f\u635f\u5bb3\u5de5\u4f5c\u73af\u5883\u7684\u884c\u4e3a&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897032",
+          "content": "<p>\u5404\u7c7b\u6b67\u89c6\u6027\u8a00\u8bba\u3001\u884c\u4e3a\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897035",
+          "content": "<p>\u8fdd\u53cd\u89c4\u5b9a\u53ca\u5f53\u5730\u98ce\u4fd7\uff0c\u5728\u5de5\u4f5c\u573a\u6240\u996e\u7528\u542b\u9152\u7cbe\u996e\u6599\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897034",
+          "content": "<p>\u4fae\u8fb1\u6027\u6279\u8bc4\u3001\u8fb1\u9a82\u7b49\u7c97\u66b4\u7ba1\u7406\u884c\u4e3a\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897033",
+          "content": "<p>\u5c06\u529e\u516c\u7535\u8111\u4e2d\u7684\u4fdd\u5bc6\u8d44\u6599\u6253\u5370\u5e26\u51fa\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897035",
+      "answer": "58897033",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.4,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 12,
+      "programitems": {}
+    },
+    {
+      "id": 16484964,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u53d1\u751f\u5185\u63a7\u4e0eBCG\u8fdd\u89c4\u4e8b\u4ef6\u540e\uff0c\u53d1\u751f\u54ea\u4e9b\u60c5\u51b5\u4e0d\u4f1a\u52a0\u91cd\u5904\u7f5a&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897036",
+          "content": "<p>\u5de5\u4f5c\u4e2d\u65e0\u610f\u89e6\u72af\u4e86\u5185\u63a7\u4e0eBCG\u89c4\u5b9a\u60c5\u8282\u8f83\u8f7b\u7684\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897039",
+          "content": "<p>\u5728\u5ba2\u6237\u6216\u793e\u4f1a\u5c42\u9762\u4ea7\u751f\u8d1f\u9762\u5f71\u54cd\uff0c\u5305\u62ec\u4f46\u4e0d\u9650\u4e8e\uff1a\u5f15\u8d77\u6cd5\u5f8b\u7ea0\u7eb7\uff0c\u5f15\u53d1\u5ba2\u6237\u6295\u8bc9\u7684\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897038",
+          "content": "<p>\u6001\u5ea6\u6076\u52a3\uff0c\u5305\u62ec\u4f46\u4e0d\u9650\u4e8e\u4e0d\u914d\u5408\u3001\u5e72\u6270\u3001\u59a8\u788d\u8fdd\u89c4\u4e8b\u4ef6\u8c03\u67e5\uff0c\u9690\u533f\u3001\u4f2a\u9020\u3001\u9500\u6bc1\u8bc1\u636e\u7684\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897037",
+          "content": "<p>\u4e32\u901a\u8fdd\u89c4\uff0c\u80c1\u8feb\u4ed6\u4eba\u8fdd\u89c4\uff0c\u624b\u6bb5\u8fdd\u6cd5\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897038",
+      "answer": "58897036",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.3,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 13,
+      "programitems": {}
+    },
+    {
+      "id": 16484965,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u88ab\u516c\u53f8\u7a3d\u6838\u51fa\u7684\u9ad8\u4e2d\u98ce\u9669\u95ee\u9898\uff0c\u90e8\u95e8\u4e3b\u7ba1\u672a\u5728\u89c4\u5b9a\u7684\u65f6\u95f4\u5185\u6267\u884c\u6574\u6539\uff0c\u4e0b\u6b21\u7a3d\u6838\u65f6\u95ee\u9898\u53c8\u88ab\u53d1\u73b0\u7684\uff0c\u8d23\u4efb\u4e3b\u7ba1\u5c5e\u4e8e&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;\u8fdd\u89c4\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897042",
+          "content": "<p>\u4e09\u7ea7<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897041",
+          "content": "<p>\u4e8c\u7ea7<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897043",
+          "content": "<p>\u56db\u7ea7<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897040",
+          "content": "<p>\u4e00\u7ea7<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897041",
+      "answer": "58897041",
+      "score": 2.0,
+      "userscore": 2.0,
+      "answerexplain": "",
+      "worktime": 2.3,
+      "type": 0,
+      "isanswerright": true,
+      "ordernum": 14,
+      "programitems": {}
+    },
+    {
+      "id": 16484966,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u5458\u5de5\u56e2\u5efa\u8d39\u7528\u672a\u5728\u90e8\u95e8\u5185\u5b9a\u671f\u516c\u793a\u7684\uff0c\u8d23\u4efb\u4e3b\u7ba1\u5c5e\u4e8e&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;\u8fdd\u89c4\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897046",
+          "content": "<p>\u4e09\u7ea7<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897045",
+          "content": "<p>\u4e8c\u7ea7<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897044",
+          "content": "<p>\u4e00\u7ea7<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897047",
+          "content": "<p>\u56db\u7ea7<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897044",
+      "answer": "58897047",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.4,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 15,
+      "programitems": {}
+    },
+    {
+      "id": 16484967,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>HW\u5ba2\u6237\u5bf9\u865a\u5047\u62a5\u9500\u7684\u5904\u7f5a\uff0c\u4f55\u79cd\u60c5\u51b5\u4e0b\u4f1a\u88ab\u8ffd\u52a0\u7f5a\u6b3e50\u4e07\u5143&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;&nbsp;&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897049",
+          "content": "<p>\u5458\u5de5\u4e2a\u4eba\u9020\u5047\uff0c\u591a\u62a5\u9500\uff0c\u62a5\u9500\u53d1\u7968\u6709\u5047\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897048",
+          "content": "<p>\u5458\u5de5\u4e2a\u4eba\u9020\u5047\uff0c\u8d2d\u4e70\u4e86\u5047\u53d1\u7968\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897051",
+          "content": "<p>\u4f9b\u5e94\u5546\u6709\u7ec4\u7ec7\u9020\u5047&nbsp;\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897050",
+          "content": "<p>\u5dee\u65c5\u4eba\u5458\u4e0e\u5b9e\u9645\u51fa\u5dee\u4eba\u5458\u4e0d\u4e00\u81f4\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897048",
+      "answer": "58897051",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.4,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 16,
+      "programitems": {}
+    },
+    {
+      "id": 16484968,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u5bf9\u4e8e\u5de5\u65f6\u9020\u5047\uff0c\u540c\u4e00\u4ea4\u4ed8\u90e8\u534a\u5e74\u5185\u6d89\u53ca\u8d85\u8fc73\u540d\u53ca\u4ee5\u4e0a\u6216\u6d89\u5acc\u7ec4\u7ec7\u5c42\u7ea7\u6388\u610f\u9020\u5047\u7684\uff0cHW\u5bf9\u5408\u4f5c\u65b9\u7684\u5904\u7f5a\u662f&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897054",
+          "content": "<p>\u8ffd\u56de\u534e\u4e3a\u635f\u5931\uff0c\u5e76\u5bf9\u4f9b\u5e94\u5546\u53e6\u52a0\u7f5a100\u4e07\u5143\u4eba\u6c11\u5e01,\u8bb0\u5f55\u5173\u952e\u4e8b\u4ef6\u534a\u5e74\u5ea6\u7ee9\u6548\u62631\u5206\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897052",
+          "content": "<p>\u8ffd\u56de\u534e\u4e3a\u635f\u5931\uff0c\u5e76\u5bf9\u4f9b\u5e94\u5546\u53e6\u52a0\u7f5a50\u4e07\u5143\u4eba\u6c11\u5e01,\u8bb0\u5f55\u5173\u952e\u4e8b\u4ef6\u534a\u5e74\u5ea6\u7ee9\u6548\u62631\u5206\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897053",
+          "content": "<p>\u8ffd\u56de\u534e\u4e3a\u635f\u5931\uff0c\u5e76\u5bf9\u4f9b\u5e94\u5546\u53e6\u52a0\u7f5a50\u4e07\u5143\u4eba\u6c11\u5e01,\u8bb0\u5f55\u5173\u952e\u4e8b\u4ef6\u534a\u5e74\u5ea6\u7ee9\u6548\u62632\u5206\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897055",
+          "content": "<p>\u8ffd\u56de\u534e\u4e3a\u635f\u5931\uff0c\u5e76\u5bf9\u4f9b\u5e94\u5546\u53e6\u52a0\u7f5a100\u4e07\u5143\u4eba\u6c11\u5e01,\u8bb0\u5f55\u5173\u952e\u4e8b\u4ef6\u534a\u5e74\u5ea6\u7ee9\u6548\u62632\u5206\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897053",
+      "answer": "58897055",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.3,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 17,
+      "programitems": {}
+    },
+    {
+      "id": 16484969,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u540c\u4e00\u4e8b\u4ef6\u4e2d\u6d89\u53ca\u5b66\u5386\u6216\u8eab\u4efd\u9020\u5047\u4eba\u54583\u540d\u53ca\u4ee5\u4e0a\u6216\u6d89\u5acc\u7ec4\u7ec7\u5c42\u7ea7\u6388\u610f\u9020\u5047\uff0cHW\u5bf9\u5408\u4f5c\u65b9\u7684\u5904\u7f5a\u662f&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897059",
+          "content": "<p>\u8ffd\u56de\u534e\u4e3a\u635f\u5931\uff0c\u5e76\u5bf9\u4f9b\u5e94\u5546\u7f5a\u6b3e10\u4e07\u5143\u4eba\u6c11\u5e01,\u8bb0\u5f55\u5173\u952e\u4e8b\u4ef6\u534a\u5e74\u5ea6\u7ee9\u6548\u62632\u5206\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897056",
+          "content": "<p>\u8ffd\u56de\u534e\u4e3a\u635f\u5931\uff0c\u5e76\u5bf9\u4f9b\u5e94\u5546\u7f5a\u6b3e200\u4e07\u5143\u4eba\u6c11\u5e01,\u8bb0\u5f55\u5173\u952e\u4e8b\u4ef6\u534a\u5e74\u5ea6\u7ee9\u6548\u62632\u5206\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897057",
+          "content": "<p>\u8ffd\u56de\u534e\u4e3a\u635f\u5931\uff0c\u5e76\u5bf9\u4f9b\u5e94\u5546\u7f5a\u6b3e100\u4e07\u5143\u4eba\u6c11\u5e01,\u8bb0\u5f55\u5173\u952e\u4e8b\u4ef6\u534a\u5e74\u5ea6\u7ee9\u6548\u62632\u5206\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897058",
+          "content": "<p>\u8ffd\u56de\u534e\u4e3a\u635f\u5931\uff0c\u5e76\u5bf9\u4f9b\u5e94\u5546\u7f5a\u6b3e50\u4e07\u5143\u4eba\u6c11\u5e01,\u8bb0\u5f55\u5173\u952e\u4e8b\u4ef6\u534a\u5e74\u5ea6\u7ee9\u6548\u62632\u5206\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897056",
+      "answer": "58897057",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.2,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 18,
+      "programitems": {}
+    },
+    {
+      "id": 16484970,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u4e2a\u4eba\u5de5\u65f6\u9020\u5047\uff0cHW\u5bf9\u5408\u4f5c\u65b9\u7684\u5904\u7f5a\u662f&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897060",
+          "content": "<p>\u8ffd\u56de\u534e\u4e3a\u635f\u5931\uff0c\u5bf9\u4f9b\u5e94\u5546\u6309\u7167\u6bcf\u540d\u5458\u5de51\u4e07\u5143\u4eba\u6c11\u5e01\u8fdb\u884c\u5904\u7f5a\uff0c\u4e0d\u8bb0\u5173\u952e\u4e8b\u4ef6\u3001\u4e0d\u6263\u5206\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897063",
+          "content": "<p>\u8ffd\u56de\u534e\u4e3a\u635f\u5931\uff0c\u5bf9\u4f9b\u5e94\u5546\u6309\u7167\u6bcf\u540d\u5458\u5de510\u4e07\u5143\u4eba\u6c11\u5e01\u8fdb\u884c\u5904\u7f5a\uff0c\u4e0d\u8bb0\u5173\u952e\u4e8b\u4ef6\u3001\u4e0d\u6263\u5206\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897061",
+          "content": "<p>\u8ffd\u56de\u534e\u4e3a\u635f\u5931\uff0c\u5bf9\u4f9b\u5e94\u5546\u6309\u7167\u6bcf\u540d\u5458\u5de55\u4e07\u5143\u4eba\u6c11\u5e01\u8fdb\u884c\u5904\u7f5a\uff0c\u4e0d\u8bb0\u5173\u952e\u4e8b\u4ef6\u3001\u4e0d\u6263\u5206\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897062",
+          "content": "<p>\u8ffd\u56de\u534e\u4e3a\u635f\u5931\uff0c\u5bf9\u4f9b\u5e94\u5546\u6309\u7167\u6bcf\u540d\u5458\u5de57\u4e07\u5143\u4eba\u6c11\u5e01\u8fdb\u884c\u5904\u7f5a\uff0c\u4e0d\u8bb0\u5173\u952e\u4e8b\u4ef6\u3001\u4e0d\u6263\u5206\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897062",
+      "answer": "58897061",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 5.2,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 19,
+      "programitems": {}
+    },
+    {
+      "id": 16484971,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 0,
+      "question": "<p>\u4ee5\u4e0b\u63cf\u8ff0\uff0c\u54ea\u4e2a\u662f\u56db\u7ea7\u5185\u63a7\u4e0eBCG\u8fdd\u89c4&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897066",
+          "content": "<p>\u9879\u76ee\u7ec4\u5458\u5de5\u4fe1\u606f\u672a\u5728\u9879\u76ee\u7ec4\u5185\u5b9a\u671f\u516c\u793a\u7684\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897065",
+          "content": "<p>\u5458\u5de5\u5173\u8054\u5173\u7cfb\u9690\u7792\u4e0d\u62a5\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897064",
+          "content": "<p>\u53d1\u751f\u5173\u8054\u4ea4\u6613\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897067",
+          "content": "<p>\u8fdd\u89c4\u9886\u53d6\u6216\u591a\u9886\u5ba2\u6237\u591c\u5bb5\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897064",
+      "answer": "58897066",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 6.8,
+      "type": 0,
+      "isanswerright": false,
+      "ordernum": 20,
+      "programitems": {}
+    },
+    {
+      "id": 16484972,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 1,
+      "question": "<p>&nbsp;\u5173\u4e8eBCG\u7684\u8bba\u8ff0\u54ea\u4e2a\u662f\u6b63\u786e\u7684&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897068",
+          "content": "<p>\u516c\u53f8\u7528\u6b63\u5f0f\u7684\u4e66\u9762\u5f62\u5f0f\uff0c\u544a\u8bc9\u5458\u5de5\u4ec0\u4e48\u53ef\u4ee5\u505a\u3001\u4ec0\u4e48\u4e0d\u53ef\u4ee5\u505a\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897070",
+          "content": "<p>\u516c\u53f8\u901a\u8fc7\u8fd9\u5957\u51c6\u5219\u8ba9\u5458\u5de5\u660e\u767d\uff0c\u8fd9\u91cc\u7684\u4f01\u4e1a\u6587\u5316\u8ba4\u4e3a\uff0c\u4ec0\u4e48\u662f\u9053\u5fb7\u7684\uff0c\u4ec0\u4e48\u662f\u4e0d\u9053\u5fb7\u7684\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897071",
+          "content": "<p>BCG\u4e0e\u666e\u901a\u5458\u5de5\u65e0\u5173\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897069",
+          "content": "<p>\u5982\u679c\u975e\u8981\u53bb\u505a\u8fdd\u53cdBCG\u7684\u4e8b\u60c5\u5c31\u4e00\u5b9a\u4f1a\u53d7\u5230\u5904\u7f5a\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897071",
+      "answer": "58897068,58897069,58897070",
+      "score": 3.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 4.8,
+      "type": 1,
+      "isanswerright": false,
+      "ordernum": 21,
+      "programitems": {}
+    },
+    {
+      "id": 16484973,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 1,
+      "question": "<p>&nbsp;HW\u4e0eMAG\u660e\u4ee4\u7981\u6b62\u7684\u5458\u5de5\u884c\u4e3a\u5305\u62ec\u4ee5\u4e0b\u54ea\u4e9b&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897075",
+          "content": "<p>\u9020\u5047\u548c\u4e0d\u8bda\u4fe1\u884c\u4e3a\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897074",
+          "content": "<p>\u8d3f\u8d42\u548c\u4e0d\u5f53\u7ade\u4e89\u884c\u4e3a\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897073",
+          "content": "<p>\u4fb5\u72af\u4ed6\u4eba\u5546\u4e1a\u79d8\u5bc6\u6216\u8fdd\u53cd\u4fdd\u5bc6\u4e49\u52a1\u7684\u884c\u4e3a\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897072",
+          "content": "<p>\u635f\u5bb3\u5ba2\u6237\u7f51\u7edc\u548c\u7528\u6237\u9690\u79c1\u7684\u884c\u4e3a\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897074",
+      "answer": "58897072,58897073,58897074,58897075",
+      "score": 3.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.6,
+      "type": 1,
+      "isanswerright": false,
+      "ordernum": 22,
+      "programitems": {}
+    },
+    {
+      "id": 16484974,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 1,
+      "question": "<p>&nbsp;HW\u4e0eMAG\u660e\u4ee4\u7981\u6b62\u7684\u51fa\u5dee\u5458\u5de5\u884c\u4e3a\u5305\u62ec&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897078",
+          "content": "<p>\u635f\u5bb3\u5de5\u4f5c\u73af\u5883\u7684\u884c\u4e3a\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897079",
+          "content": "<p>\u8fdd\u89c4\u62a5\u9500\u7684\u884c\u4e3a\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897076",
+          "content": "<p>\u8fdd\u53cd\u7b7e\u8bc1\u7ba1\u7406\u89c4\u5b9a\u7684\u884c\u4e3a\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897077",
+          "content": "<p>\u8fdd\u53cd\u6d77\u5173\u51fa\u5165\u5883\u7684\u884c\u4e3a\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897076",
+      "answer": "58897076,58897077,58897078,58897079",
+      "score": 3.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 4.7,
+      "type": 1,
+      "isanswerright": false,
+      "ordernum": 23,
+      "programitems": {}
+    },
+    {
+      "id": 16484975,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 1,
+      "question": "<p>\u4e8c\u7ea7\u5185\u63a7\u4e0eBCG\u8fdd\u89c4\u7684\u5904\u7f5a\u63cf\u8ff0\u6b63\u786e\u7684\u662f&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897082",
+          "content": "<p>&nbsp;\u964d\u7ea7\u964d\u85aa\uff0c\u82e5\u5458\u5de5\u4e0d\u518d\u9002\u5408\u5f53\u524d\u5c97\u4f4d\uff0c\u5219\u9700\u8fdb\u884c\u5c97\u4f4d\u8c03\u6574\uff0c\u5e76\u6613\u5c97\u6613\u85aa\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897083",
+          "content": "<p>&nbsp;\u8d54\u507f\u56e0\u8fdd\u89c4\u9020\u6210\u7684\u7ecf\u6d4e\u635f\u5931\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897080",
+          "content": "<p>&nbsp;\u5f53\u5b63\u7ee9\u6548\u8003\u6838\u7ed3\u679c\u4e3aC\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897081",
+          "content": "<p>&nbsp;\u51bb\u7ed3\u4e2a\u4eba\u804c\u4f4d\u664b\u5347\u3001\u6da8\u85aa\u3001\u5e72\u90e8\u5411\u4e0a\u4efb\u547d\uff0c\u51bb\u7ed3\u671f12\u4e2a\u6708\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897083",
+      "answer": "58897081,58897082,58897083",
+      "score": 3.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.5,
+      "type": 1,
+      "isanswerright": false,
+      "ordernum": 24,
+      "programitems": {}
+    },
+    {
+      "id": 16484976,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 1,
+      "question": "<p>\u4ee5\u4e0b\u54ea\u4e9b\u884c\u4e3a\u5c5e\u4e8e\u4e0d\u8bda\u4fe1\u53ca\u9020\u5047\u884c\u4e3a&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897085",
+          "content": "<p>&nbsp;\u4f2a\u9020\u5ba2\u6237\u9a8c\u6536\u6750\u6599\u6216\u5ba2\u6237\u7b7e\u540d\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897084",
+          "content": "<p>&nbsp;\u672a\u7ecf\u6279\u51c6\u4ece\u4e8b\u7b2c\u4e8c\u804c\u4e1a\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897087",
+          "content": "<p>&nbsp;\u4e0d\u670d\u4ece\u5ba2\u6237\u5de5\u4f5c\u5b89\u6392\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897086",
+          "content": "<p>&nbsp;\u4ee3\u5f55\u6307\u7eb9\u3001\u4ee3\u6253\u5361\u3001\u66ff\u8003\u66ff\u7b7e\u5b57\u3001\u8003\u8bd5\u4f5c\u5f0a\u3001\u7b80\u5386\u9020\u5047\u3001\u4f2a\u9020\u5b66\u5386\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897086",
+      "answer": "58897084,58897085,58897086",
+      "score": 3.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.4,
+      "type": 1,
+      "isanswerright": false,
+      "ordernum": 25,
+      "programitems": {}
+    },
+    {
+      "id": 16484977,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 1,
+      "question": "<p>\u4fb5\u72af\u4ed6\u4eba\u5546\u4e1a\u79d8\u5bc6\u6216\u8fdd\u53cd\u4fdd\u5bc6\u4e49\u52a1\u7684\u884c\u4e3a\u6709\u54ea\u4e9b&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897091",
+          "content": "<p>\u660e\u77e5\u6216\u5e94\u77e5\u5c5e\u4e8e\u975e\u6cd5\u83b7\u53d6\u7684\u4ed6\u4eba\u4fdd\u5bc6\u4fe1\u606f\uff0c\u800c\u5bf9\u8fd9\u4e9b\u4fe1\u606f\u8fdb\u884c\u4fdd\u5b58\u3001\u4f7f\u7528\u3001\u4f20\u64ad\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897090",
+          "content": "<p>\u672a\u7ecf\u4e66\u9762\u6388\u6743\uff0c\u8d85\u51fa\u534f\u8bae\u7ea6\u5b9a\u4f7f\u7528\u4ed6\u4eba\u4ee3\u7801\u3001\u6587\u6863\u53ca\u5176\u4ed6\u4fdd\u5bc6\u4fe1\u606f\u3001\u6216\u62ab\u9732\u7ed9\u6388\u6743\u8303\u56f4\u5916\u7684\u4eba\u5458\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897088",
+          "content": "<p>\u672a\u7ecf\u4e66\u9762\u6388\u6743\uff0c\u5bf9\u4ed6\u4eba\u7684\u4fdd\u5bc6\u4fe1\u606f\u8fdb\u884c\u62cd\u6444\u3001\u5f55\u50cf\u3001\u62f7\u8d1d\u6216\u5176\u4ed6\u5f62\u5f0f\u7684\u590d\u5236\u884c\u4e3a\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897089",
+          "content": "<p>\u672a\u7ecf\u4e66\u9762\u6388\u6743\uff0c\u5c06\u542b\u6709\u4ed6\u4eba\u4fdd\u5bc6\u4fe1\u606f\u7684\u8bbe\u5907\u7b49\u7269\u54c1\u5e26\u51fa\u4ed6\u4eba\u5b9e\u9a8c\u5ba4\u3001\u529e\u516c\u5ba4\u3001\u5c55\u5385\u3001\u673a\u623f\u7b49\u573a\u6240\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897090",
+      "answer": "58897088,58897089,58897090,58897091",
+      "score": 3.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.9,
+      "type": 1,
+      "isanswerright": false,
+      "ordernum": 26,
+      "programitems": {}
+    },
+    {
+      "id": 16484978,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 1,
+      "question": "<p>\u53d1\u751f\u5185\u63a7\u4e0eBCG\u8fdd\u89c4\u884c\u4e3a\u540e\uff0c\u4ec0\u4e48\u60c5\u51b5\u4e0b\u4f1a\u4ece\u8f7b\u5904\u7f5a&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897095",
+          "content": "<p>\u8fdd\u89c4\u4e8b\u53d1\u540e\u4e3b\u52a8\u79bb\u804c\u7684\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897093",
+          "content": "<p>\u672c\u4eba\u5b58\u5728\u8fdd\u89c4\u884c\u4e3a\uff0c\u5728\u516c\u53f8\u6216\u8005\u5ba2\u6237\u638c\u63e1\u4ed6\u4eba\u8fdd\u89c4\u4fe1\u606f\u4e4b\u524d\uff0c\u63ed\u53d1\u6216\u8005\u68c0\u4e3e\u4ed6\u4eba\u8fdd\u89c4\u60c5\u51b5\u5c5e\u5b9e\u7684\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897092",
+          "content": "<p>\u5728\u516c\u53f8\u6216\u8005\u5ba2\u6237\u638c\u63e1\u8fdd\u89c4\u4fe1\u606f\u4e4b\u524d\uff0c\u5f53\u4e8b\u4eba\u4e3b\u52a8\u7533\u62a5\u7684\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897094",
+          "content": "<p>\u548c\u77e5\u60c5\u8005\u5546\u5b9a\u5171\u540c\u9690\u7792\u7684\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897094",
+      "answer": "58897092,58897093",
+      "score": 3.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 4.4,
+      "type": 1,
+      "isanswerright": false,
+      "ordernum": 27,
+      "programitems": {}
+    },
+    {
+      "id": 16484979,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 1,
+      "question": "<p>\u67d0\u5408\u4f5c\u65b9\uff0c\u90e8\u95e8\u4e3b\u7ba1\u7ed9\u5ba2\u6237\u65b9\u9879\u76ee\u7ecf\u7406\u9001\u90e8\u95e8\u5458\u5de5\u7684\u56e2\u5efa\u8d39\uff0c\u5e76\u5b89\u6392\u8be5\u9879\u76ee\u7ecf\u7406\u7684\u4eb2\u621a\u62ff\u5de5\u8d44\u4e0d\u4e0a\u73ed\u3002\u5ba2\u6237\u65b9\u4e3b\u7ba1\u53ca\u5176\u4e0b\u5c5e\u8054\u5408\u5408\u4f5c\u65b9\u4eba\u5458\u5408\u4f19\u5728\u5916\u5f00\u516c\u53f8\uff0c\u5e76\u8ba9\u90e8\u95e8\u5408\u4f5c\u5458\u5de5\u5728\u5de5\u4f5c\u65f6\u95f4\u5e2e\u81ea\u5df1\u5f00\u7684\u516c\u53f8\u5e72\u6d3b\uff0c\u6700\u7ec8\u88ab\u5ba2\u6237\u67e5\u83b7\u3002\u8fdd\u89c4\u5408\u4f5c\u65b9\u88ab\u5ba2\u6237\u7f5a\u6b3e\u8fd1\u4e94\u5343\u4e07\u5143\u3002\u76f8\u5173\u8fdd\u89c4\u8fdd\u6cd5\u4eba\u5458\u88ab\u8d77\u8bc9\u5e76\u88ab\u5224\u5211\u3002\u8be5\u4e8b\u4ef6\u5b58\u5728\u54ea\u4e9b\u8fdd\u89c4\u884c\u4e3a&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897096",
+          "content": "<p>\u884c\u8d3f\u53d7\u8d3f<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897098",
+          "content": "<p>\u8fdd\u89c4\u4ece\u4e8b\u7b2c\u4e8c\u804c\u4e1a<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897099",
+          "content": "<p>\u5e72\u79c1\u6d3b<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897097",
+          "content": "<p>\u5403\u7a7a\u9977<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897098",
+      "answer": "58897096,58897097,58897098,58897099",
+      "score": 3.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.9,
+      "type": 1,
+      "isanswerright": false,
+      "ordernum": 28,
+      "programitems": {}
+    },
+    {
+      "id": 16484980,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 1,
+      "question": "<p>\u67d0\u5408\u4f5c\u65b9\uff0c\u90e8\u95e8\u4e3b\u7ba1\u52fe\u7ed3\u5ba2\u6237\u65b9\u4e3b\u7ba1\u5728\u5916\u5f00\u516c\u53f8\uff0c\u672a\u7ecf\u5ba2\u6237\u540c\u610f\uff0c\u5c06\u5ba2\u6237\u4e1a\u52a1\u79c1\u81ea\u8f6c\u5305\u7ed9\u8fd9\u4e2a\u7b2c\u4e09\u65b9\u516c\u53f8\u8fdb\u884c\u8c0b\u5229\u3002\u6700\u7ec8\u88ab\u5ba2\u6237\u67e5\u83b7\u3002\u76f8\u5173\u8fdd\u89c4\u8fdd\u89c4\u4eba\u5458\u88ab\u8d77\u8bc9\u5211\u62d8\u3002\u8fdd\u89c4\u5408\u4f5c\u65b9\u88ab\u5ba2\u6237\u5904\u4ee5\u9ad8\u989d\u7f5a\u6b3e\u3002\u8be5\u5408\u4f5c\u65b9\u5b58\u5728\u54ea\u4e9b\u8fdd\u89c4\u884c\u4e3a&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897103",
+          "content": "<p>\u8fdd\u89c4\u8f6c\u5305<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897100",
+          "content": "<p>\u8fdd\u89c4\u4ece\u4e8b\u7b2c\u4e8c\u804c\u4e1a<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897102",
+          "content": "<p>\u5403\u7a7a\u9977<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897101",
+          "content": "<p>\u884c\u8d3f\u53d7\u8d3f<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897102",
+      "answer": "58897100,58897103",
+      "score": 3.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 6.7,
+      "type": 1,
+      "isanswerright": false,
+      "ordernum": 29,
+      "programitems": {}
+    },
+    {
+      "id": 16484981,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 1,
+      "question": "<p>\u5173\u4e8e\u5185\u63a7\u4e0eBCG\u91cd\u5927\u7a81\u53d1\u4e8b\u4ef6\u7684\u8bba\u8ff0\uff0c\u54ea\u4e9b\u662f\u6b63\u786e\u7684&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897107",
+          "content": "<p>\u5458\u5de5\u79bb\u804c\u8bc1\u660e\u9020\u5047\u5165\u804c\u65f6\u88ab\u90e8\u95e8\u4e3b\u7ba1\u8bc6\u7834\u4e5f\u5c5e\u4e8e\u91cd\u5927\u7a81\u53d1\u4e8b\u4ef6\u3002<br/></p>",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897104",
+          "content": "<p>\u5185\u63a7\u4e0eBCG\u91cd\u5927\u7a81\u53d1\u4e8b\u4ef6\u662f\u6307\u5728\u4e1a\u52a1\u6d3b\u52a8\u8fc7\u7a0b\u4e2d\u7a81\u53d1\u7684\u3001\u5982\u4e0d\u80fd\u53ca\u65f6\u59a5\u5584\u5904\u7f6e\u5c06\u4f1a\u5bf9\u4e8b\u4e1a\u7fa4\u7684\u4e1a\u52a1\u7ecf\u8425\u4ea7\u751f\u4e25\u91cd\u540e\u679c\u6216\u4ea7\u751f\u91cd\u5927\u4e0d\u826f\u5f71\u54cd\u7684\u5185\u63a7\u4e0eBCG\u4e8b\u4ef6\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897105",
+          "content": "<p>\u53d1\u751f\u5411\u5ba2\u6237\u63d0\u4f9b\u865a\u5047\u4fe1\u606f\uff0c\u635f\u5bb3\u5ba2\u6237\u5229\u76ca\uff0c\u884c\u8d3f\u7b49\u5c5e\u4e8e\u91cd\u5927\u7a81\u53d1\u4e8b\u4ef6\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897106",
+          "content": "<p>\u91cd\u5927\u7a81\u53d1\u4e8b\u4ef6\u53d1\u751f\u540e\uff0c\u5f53\u4e8b\u4eba\u9700\u7acb\u5373\u5411\u8f6f\u901a\u7684\u76f4\u63a5\u4e0a\u7ea7\u4e3b\u7ba1\u62a5\u544a\uff0c\u5f53\u4e8b\u4eba\u53ca\u4e3b\u7ba1\u4e0d\u5f97\u9690\u7792\u6216\u6342\u76d6\u5b50\u3002<br/></p>",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897106",
+      "answer": "58897104,58897105,58897106",
+      "score": 3.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.3,
+      "type": 1,
+      "isanswerright": false,
+      "ordernum": 30,
+      "programitems": {}
+    },
+    {
+      "id": 16484982,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u672a\u7ecf\u5ba2\u6237\u65b9\u4e8b\u5148\u4e66\u9762\u540c\u610f\uff0c\u7ec4\u7ec7\u5ba2\u6237\u65b9\u4eba\u5458\u53c2\u52a0\u65c5\u6e38\u3001\u9ad8\u6d88\u8d39\u5a31\u4e50\u3001\u4ee5\u65c5\u6e38\u4e3a\u76ee\u7684\u5728\u98ce\u666f\u533a\u53ec\u5f00\u7684\u4f1a\u8bae\u662f\u8fdd\u89c4\u884c\u4e3a\uff08\u5ba2\u6237\u65b9\u627f\u62c5\u8d39\u7528\u7684\u9664\u5916\uff09\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897109",
+          "content": "\u9519\u8bef",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897108",
+          "content": "\u6b63\u786e",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897108",
+      "answer": "58897108",
+      "score": 2.0,
+      "userscore": 2.0,
+      "answerexplain": "",
+      "worktime": 5.2,
+      "type": 2,
+      "isanswerright": true,
+      "ordernum": 31,
+      "programitems": {}
+    },
+    {
+      "id": 16484983,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u672a\u7ecf\u5ba2\u6237\u5141\u8bb8\uff0c\u4e0d\u53ef\u5bf9\u5916\u5ba3\u4f20\u4e0e\u5ba2\u6237\u7684\u5408\u4f5c\u5173\u7cfb\u53ca\u5408\u4f5c\u76f8\u5173\u4fe1\u606f\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897111",
+          "content": "\u9519\u8bef",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897110",
+          "content": "\u6b63\u786e",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897111",
+      "answer": "58897110",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.4,
+      "type": 2,
+      "isanswerright": false,
+      "ordernum": 32,
+      "programitems": {}
+    },
+    {
+      "id": 16484984,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u672a\u7ecf\u5ba2\u6237\u4e66\u9762\u540c\u610f\uff0c\u9080\u8bf7\u5ba2\u6237\u5728\u804c\u5458\u5de5\u6765\u516c\u53f8\u4ed8\u8d39\u6388\u8bfe\u662f\u5141\u8bb8\u7684\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897113",
+          "content": "\u9519\u8bef",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897112",
+          "content": "\u6b63\u786e",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897112",
+      "answer": "58897113",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.1,
+      "type": 2,
+      "isanswerright": false,
+      "ordernum": 33,
+      "programitems": {}
+    },
+    {
+      "id": 16484985,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u501f\u94b1\u6b3e\u3001\u501f\u8f66\u3001\u501f\u623f\u7ed9\u5ba2\u6237\u957f\u671f\u4f7f\u7528\uff0c\u4e0d\u5c5e\u4e8e\u5229\u76ca\u8f93\u9001\u884c\u4e3a\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897114",
+          "content": "\u6b63\u786e",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897115",
+          "content": "\u9519\u8bef",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897114",
+      "answer": "58897115",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.3,
+      "type": 2,
+      "isanswerright": false,
+      "ordernum": 34,
+      "programitems": {}
+    },
+    {
+      "id": 16484986,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u5ba2\u6237\u5458\u5de5\u63a8\u8350\u65b0\u5458\u5de5\u5165\u804c\u8f6f\u901a\u540e\uff0c\u8f6f\u901a\u5458\u5de5\u5c06\u63a8\u8350\u62db\u8058\u5956\u91d1\u8f6c\u8d60\u7ed9\u5ba2\u6237\u5458\u5de5\u4e0d\u5c5e\u4e8e\u8fdd\u89c4\u884c\u4e3a\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897117",
+          "content": "\u9519\u8bef",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897116",
+          "content": "\u6b63\u786e",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897116",
+      "answer": "58897117",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.0,
+      "type": 2,
+      "isanswerright": false,
+      "ordernum": 35,
+      "programitems": {}
+    },
+    {
+      "id": 16484987,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u4e3e\u62a5\u4ed6\u4eba\u8fdd\u89c4\u4e8b\u4ef6\u5c5e\u5b9e\u7684\u5458\u5de5\uff0c\u6309\u8fdd\u89c4\u4e8b\u4ef6\u7684\u6027\u8d28\u53ca\u5371\u5bb3\u5927\u5c0f\u51b3\u5b9a\u5956\u52b1\u7684\u91d1\u989d\uff0c\u7ecfMAG&nbsp;AT\u56e2\u961f\u8bc4\u5ba1\u51b3\u7b56\u540e\u53ca\u65f6\u5956\u52b1\uff0c\u5956\u91d1\u91d1\u989d\u4e0a\u4e0d\u5c01\u9876\uff0c\u5bf9\u516c\u53f8\u5371\u5bb3\u8d8a\u5927\u7684\u4e3e\u62a5\u7ebf\u7d22\uff0c\u5956\u91d1\u6570\u989d\u8d8a\u9ad8\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897118",
+          "content": "\u6b63\u786e",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897119",
+          "content": "\u9519\u8bef",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897118",
+      "answer": "58897118",
+      "score": 2.0,
+      "userscore": 2.0,
+      "answerexplain": "",
+      "worktime": 2.2,
+      "type": 2,
+      "isanswerright": true,
+      "ordernum": 36,
+      "programitems": {}
+    },
+    {
+      "id": 16484988,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u8fdd\u53cdBCG\u6761\u6b3e\uff0cHW\u6709\u6743\u53d6\u6d88\u4f5c\u4e3a\u4f9b\u5e94\u5546\u7684\u8d44\u683c\uff0c\u5355\u65b9\u9762\u7ec8\u6b62\u91c7\u8d2d\u5408\u540c\uff0c\u5217\u5165\u91c7\u8d2d\u9ed1\u540d\u5355\uff0c\u4fdd\u7559\u901a\u8fc7\u6cd5\u5f8b\u8ffd\u7a76\u5f53\u4e8b\u4eba\u8d23\u4efb\u7684\u6743\u5229\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897120",
+          "content": "\u6b63\u786e",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897121",
+          "content": "\u9519\u8bef",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897121",
+      "answer": "58897120",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 1.9,
+      "type": 2,
+      "isanswerright": false,
+      "ordernum": 37,
+      "programitems": {}
+    },
+    {
+      "id": 16484989,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u4e32\u4f9b\u6216\u8005\u963b\u6b62\u4ed6\u4eba\u63ed\u53d1\u4e3e\u62a5\u3001\u63d0\u4f9b\u8bc1\u636e\u6750\u6599\u7684\u3001\u6253\u51fb\u62a5\u590d\u4e3e\u62a5\u4eba\u3001\u8bc1\u4eba\u7684\uff0c\u4f1a\u52a0\u91cd\u5904\u7f5a\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897122",
+          "content": "\u6b63\u786e",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897123",
+          "content": "\u9519\u8bef",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897122",
+      "answer": "58897122",
+      "score": 2.0,
+      "userscore": 2.0,
+      "answerexplain": "",
+      "worktime": 2.3,
+      "type": 2,
+      "isanswerright": true,
+      "ordernum": 38,
+      "programitems": {}
+    },
+    {
+      "id": 16484990,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u5458\u5de5\u8fdd\u53cd\u5185\u63a7\u4e0eBCG\u89c4\u5b9a\u88ab\u67e5\u5904\uff0c\u4e3b\u7ba1\u4e0d\u627f\u62c5\u8d23\u4efb\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897125",
+          "content": "\u9519\u8bef",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897124",
+          "content": "\u6b63\u786e",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897124",
+      "answer": "58897125",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 1.9,
+      "type": 2,
+      "isanswerright": false,
+      "ordernum": 39,
+      "programitems": {}
+    },
+    {
+      "id": 16484991,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u6536\u96c6\u79c1\u5b58\u4ed6\u4eba\u7684\u5ba2\u6237\u8d26\u53f7\u5bc6\u7801\u5e76\u7528\u4e8e\u975e\u5de5\u4f5c\u76ee\u7684\u662f\u5185\u63a7\u4e0eBCG\u4e00\u7ea7\u8fdd\u89c4\u884c\u4e3a\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897126",
+          "content": "\u6b63\u786e",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897127",
+          "content": "\u9519\u8bef",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897126",
+      "answer": "58897126",
+      "score": 2.0,
+      "userscore": 2.0,
+      "answerexplain": "",
+      "worktime": 2.4,
+      "type": 2,
+      "isanswerright": true,
+      "ordernum": 40,
+      "programitems": {}
+    },
+    {
+      "id": 16484992,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u53d1\u73b0\u4ed6\u4eba\u8fdd\u89c4\u884c\u4e3a\uff0c\u5411\u5b89\u5168\u5408\u89c4\u90e8\u4e3e\u62a5\u90ae\u7bb1\u4e3e\u62a5\uff0c\u60c5\u51b5\u5c5e\u5b9e\u7684\u4f1a\u83b7\u5f97\u4e00\u5b9a\u6570\u989d\u7684\u5956\u91d1\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897128",
+          "content": "\u6b63\u786e",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897129",
+          "content": "\u9519\u8bef",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897129",
+      "answer": "58897128",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.2,
+      "type": 2,
+      "isanswerright": false,
+      "ordernum": 41,
+      "programitems": {}
+    },
+    {
+      "id": 16484993,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u5229\u7528\u4ee3\u7406\u5546\u6216\u4e2d\u95f4\u4eba\u8d3f\u8d42\u5ba2\u6237\u65b9\u4eba\u5458\uff0c\u4e3b\u4f7f\u8005\u4e0d\u9700\u627f\u62c5\u8d23\u4efb\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897131",
+          "content": "\u9519\u8bef",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897130",
+          "content": "\u6b63\u786e",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897131",
+      "answer": "58897131",
+      "score": 2.0,
+      "userscore": 2.0,
+      "answerexplain": "",
+      "worktime": 2.0,
+      "type": 2,
+      "isanswerright": true,
+      "ordernum": 42,
+      "programitems": {}
+    },
+    {
+      "id": 16484994,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u4e3a\u4e86\u62a5\u9500\u9700\u8981\uff0c\u62a5\u9500\u4eba\u5728\u5916\u8d2d\u4e70\u53d1\u7968\u65f6\u8bef\u8d2d\u4e70\u4e86\u5047\u53d1\u7968\uff0c\u62a5\u9500\u4eba\u56e0\u4e3a\u4e0d\u77e5\u60c5\u5c31\u53ef\u4ee5\u4e0d\u627f\u62c5\u8d23\u4efb\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897133",
+          "content": "\u9519\u8bef",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897132",
+          "content": "\u6b63\u786e",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897132",
+      "answer": "58897133",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 1.8,
+      "type": 2,
+      "isanswerright": false,
+      "ordernum": 43,
+      "programitems": {}
+    },
+    {
+      "id": 16484995,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u4e0e\u5ba2\u6237\u5b58\u5728\u5173\u8054\u5173\u7cfb\u6545\u610f\u9690\u7792\u4e0d\u62a5\u662f\u4e8c\u7ea7\u5185\u63a7\u4e0eBCG\u8fdd\u89c4\u884c\u4e3a\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897135",
+          "content": "\u9519\u8bef",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897134",
+          "content": "\u6b63\u786e",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897135",
+      "answer": "58897134",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 2.1,
+      "type": 2,
+      "isanswerright": false,
+      "ordernum": 44,
+      "programitems": {}
+    },
+    {
+      "id": 16484996,
+      "user": "USR2S239KZHHG3XA80OR98YSZ6P3W8BNZLYWINS",
+      "way": 2,
+      "question": "<p>\u8003\u8bd5\u4eba\u53c2\u52a0\u5ba2\u6237\u9879\u76ee\u8003\u8bd5\u4f5c\u5f0a\u88ab\u67e5\u83b7\uff0c\u8003\u8bd5\u4eba\u5c06\u6309\u5185\u63a7\u4e0eBCG\u4e00\u7ea7\u8fdd\u89c4\u5904\u7f5a\u3002<br/></p>",
+      "answeritems": [
+        {
+          "sn": "58897136",
+          "content": "\u6b63\u786e",
+          "isanswer": true,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        },
+        {
+          "sn": "58897137",
+          "content": "\u9519\u8bef",
+          "isanswer": false,
+          "score": 0.0,
+          "count": 0,
+          "percent": 0
+        }
+      ],
+      "useranswer": "58897137",
+      "answer": "58897136",
+      "score": 2.0,
+      "userscore": 0.0,
+      "answerexplain": "",
+      "worktime": 6.2,
+      "type": 2,
+      "isanswerright": false,
+      "ordernum": 45,
+      "programitems": {}
+    }
+  ]
+}

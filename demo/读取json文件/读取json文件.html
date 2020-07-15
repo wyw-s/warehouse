@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    p {
+      font-size: 18px;
+      color: red;
+    }
+    li {
+      color: blue;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+<div>
+  <p></p>
+  <li></li>
+</div>
+
+</body>
+<script>
+  window.onload = function () {
+    var url = 'a.json'
+    var res = new XMLHttpRequest();
+    res.open('get', url);
+    res.send()
+    res.onload = function () {
+      if (this.status === 200) {
+        var json = JSON.parse(this.response)
+        let num = 0
+        json.answers.forEach(item => {
+          const div = document.querySelector('div')
+          const creact = document.createElement('p')
+          div.appendChild(creact)
+          creact.innerText = ++num + item.question.replace(/&nbsp/g || /<p>/g || /<\/p>/g || /<br\/>/g, '')
+          item.answeritems.forEach(items => {
+            if (items.isanswer) {
+              const li = document.createElement('li')
+              div.appendChild(li)
+              li.innerText = items.content
+            }
+          })
+        })
+      }
+    }
+  }
+</script>
+</html>

@@ -1,13 +1,3 @@
----
-title: 【Promise】
-date: 2019-12-23 11:45:40
-tags: [javaScript-高级]
-categories: javaScript
----
-
-Promise异步请求；
-<!-- more -->
-
 # 什么是`Promise`;
 
 > 概念：Promise 代表一个异步操作；
